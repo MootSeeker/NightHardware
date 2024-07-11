@@ -5,7 +5,11 @@
 	(uuid "96ba0fa1-4d81-42b1-9420-1b6bd50bebb6")
 	(paper "A3")
 	(title_block
+		(title "NightLight")
 		(date "2024-07-10")
+		(rev "a")
+		(comment 1 "MootSeeker (c) 2024")
+		(comment 2 "LED Board")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2485,543 +2489,6 @@
 				)
 			)
 		)
-		(symbol "LED:SMLVN6RGB"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMLVN6RGB"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED RGB Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*ROHM*SMLVN6*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMLVN6RGB_0_0"
-				(text "B"
-					(at 1.905 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "G"
-					(at 1.905 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "R"
-					(at 1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "SMLVN6RGB_0_1"
-				(rectangle
-					(start -2.794 8.382)
-					(end 2.794 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 -1.27)
-					(end -1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end -1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end -1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
-					(end -1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy 1.27 -5.08) (xy -1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81) (xy 1.27 5.08) (xy -1.27 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy -1.524 -2.286) (xy -0.762 -2.286) (xy -1.524 -2.286) (xy -1.524 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.524 2.794) (xy -0.762 2.794) (xy -1.524 2.794) (xy -1.524 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy -1.524 7.874) (xy -0.762 7.874) (xy -1.524 7.874) (xy -1.524 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -3.81) (xy -0.508 -2.286) (xy 0.254 -2.286) (xy -0.508 -2.286) (xy -0.508 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.27) (xy -0.508 2.794) (xy 0.254 2.794) (xy -0.508 2.794) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 6.35) (xy -0.508 7.874) (xy 0.254 7.874) (xy -0.508 7.874) (xy -0.508 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMLVN6RGB_1_1"
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "BA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "RA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "GA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "GK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "RK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "BK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -3240,180 +2707,140 @@
 		)
 	)
 	(junction
-		(at 182.88 73.66)
+		(at 26.67 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02615e90-55d1-4db3-ad76-0fa87bf9a952")
+		(uuid "a20c13ee-1d9f-405e-889f-a3b51412c60c")
 	)
-	(junction
-		(at 322.58 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0383dfd9-0c57-4811-87de-da5c90fd2df3")
+	(no_connect
+		(at 332.74 68.58)
+		(uuid "19a39bb8-3736-4aae-b209-000897d18a15")
 	)
-	(junction
-		(at 290.83 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07b8b3e7-6a75-4cb7-873b-9326c37b2709")
+	(no_connect
+		(at 205.74 68.58)
+		(uuid "251ca845-4073-470a-b93e-9210044c5bf7")
 	)
-	(junction
-		(at 275.59 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f5fe083-1366-41a4-8783-138d76b4d159")
+	(no_connect
+		(at 231.14 68.58)
+		(uuid "26b671cc-dc7a-4214-8e50-e4b00ad97ddc")
 	)
-	(junction
-		(at 167.64 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "522cdef3-555a-4a5e-a440-0a2bf06135c2")
+	(no_connect
+		(at 358.14 68.58)
+		(uuid "2b2a928a-2829-4861-ab4b-1fbb1cf9a105")
 	)
-	(junction
-		(at 259.08 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5741c774-22ce-4e88-9ce4-0c6f0e66def3")
+	(no_connect
+		(at 281.94 68.58)
+		(uuid "38d52e30-915f-47fe-bbc7-60855cd74ba1")
 	)
-	(junction
-		(at 307.34 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "704a4385-06a6-492e-8f17-43063a706a82")
+	(no_connect
+		(at 256.54 68.58)
+		(uuid "9701d7a4-8744-44fb-8a42-54e2e8079af0")
 	)
-	(junction
-		(at 243.84 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cd7ac32-bbf4-41c7-aa24-5e96cd5cbaed")
+	(no_connect
+		(at 307.34 68.58)
+		(uuid "a56dfd6a-f5a3-4edd-a5e9-838c69a76686")
 	)
-	(junction
-		(at 213.36 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83ebb670-26e3-4e61-b704-a1474d131970")
+	(no_connect
+		(at 180.34 68.58)
+		(uuid "d1e94fef-47a9-47c2-82fe-8415d7622d67")
 	)
-	(junction
-		(at 228.6 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d9d2ee6-de41-4f53-9b96-40efae97a28f")
-	)
-	(junction
-		(at 198.12 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a34fcf5e-1d1e-4b39-93e3-c54e0bcad661")
-	)
-	(junction
-		(at 152.4 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "facee3d7-2a8b-4cbf-a28b-d13c529b9a4c")
+	(no_connect
+		(at 154.94 68.58)
+		(uuid "f8831203-ea9c-4fec-aebc-bfae8b0aca28")
 	)
 	(wire
 		(pts
-			(xy 222.25 73.66) (xy 223.52 73.66)
+			(xy 26.67 66.04) (xy 26.67 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00b32417-4dcc-48a3-a07f-1e35ed6a61b2")
+		(uuid "00ec1a33-19fb-4eef-9d54-7fdfe0fcb33e")
 	)
 	(wire
 		(pts
-			(xy 219.71 90.17) (xy 219.71 86.36)
+			(xy 160.02 119.38) (xy 160.02 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00c0b081-cec0-49c1-9588-e3a6d7aa8c5d")
+		(uuid "018ec8c2-4b05-4355-9906-65d9b308639d")
 	)
 	(wire
 		(pts
-			(xy 281.94 90.17) (xy 281.94 86.36)
+			(xy 137.16 154.94) (xy 246.38 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0253d5f9-9bc1-4395-934d-c09927f7f2ae")
+		(uuid "0225f798-732a-4041-9145-afe9829b0020")
 	)
 	(wire
 		(pts
-			(xy 177.8 90.17) (xy 177.8 93.98)
+			(xy 241.3 152.4) (xy 241.3 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "067cbefb-4199-4c3d-9c76-e5c33a7986b5")
+		(uuid "04bcb74e-8846-40e9-8bc3-0207ac3b52c6")
 	)
 	(wire
 		(pts
-			(xy 147.32 116.84) (xy 147.32 104.14)
+			(xy 137.16 124.46) (xy 170.18 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06b820ed-c3d5-44e3-a71d-f8f0b49ca0e8")
+		(uuid "0520b4a7-6e27-4e5e-972d-a355e04132a2")
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 162.56 73.66)
+			(xy 231.14 147.32) (xy 231.14 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "090f4fbe-d9df-4a48-b45c-72b014cc3742")
+		(uuid "06b59d48-e4ef-483b-9fc3-557cc638eb7b")
 	)
 	(wire
 		(pts
-			(xy 250.19 90.17) (xy 250.19 86.36)
+			(xy 342.9 193.04) (xy 342.9 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "091c7f0a-878f-48aa-83c9-8000219aa1bc")
+		(uuid "0864f654-a964-4d24-83cd-60bc9c8b237f")
 	)
 	(wire
 		(pts
-			(xy 173.99 73.66) (xy 173.99 69.85)
+			(xy 137.16 137.16) (xy 205.74 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09c7b161-b336-4fed-8808-a9d186456acc")
+		(uuid "097980f5-d530-4f0d-b2c6-896bd7e307a2")
 	)
 	(wire
 		(pts
-			(xy 327.66 73.66) (xy 328.93 73.66)
+			(xy 137.16 203.2) (xy 368.3 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a5a449a-0cb1-4a4b-ac42-96c38ba18584")
+		(uuid "0b85d6d1-1173-47f4-ba1a-94172a35be6f")
 	)
 	(wire
 		(pts
-			(xy 191.77 73.66) (xy 193.04 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c096894-a192-4963-bcc8-eb925325c644")
-	)
-	(wire
-		(pts
-			(xy 101.6 219.71) (xy 101.6 214.63)
+			(xy 101.6 226.06) (xy 101.6 219.71)
 		)
 		(stroke
 			(width 0)
@@ -3423,67 +2850,27 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 121.92) (xy 157.48 121.92)
+			(xy 137.16 152.4) (xy 241.3 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f9e513d-7e9c-4a69-a3f8-8c351f80662f")
+		(uuid "114af009-a10b-4e17-a22a-b47986d6c095")
 	)
 	(wire
 		(pts
-			(xy 312.42 198.12) (xy 312.42 104.14)
+			(xy 137.16 177.8) (xy 307.34 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11df070d-1514-405b-a099-7fcbd7b73b52")
+		(uuid "13516b81-27c1-44b3-b59b-8c08635c0103")
 	)
 	(wire
 		(pts
-			(xy 176.53 73.66) (xy 176.53 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12399ad3-cb7f-44eb-a178-5f4da44d831a")
-	)
-	(wire
-		(pts
-			(xy 265.43 62.23) (xy 265.43 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "129c05a7-f583-4bbf-ab95-3ffb4958537d")
-	)
-	(wire
-		(pts
-			(xy 290.83 57.15) (xy 297.18 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12c677da-b923-43b4-84b6-40f495e49f5b")
-	)
-	(wire
-		(pts
-			(xy 137.16 193.04) (xy 302.26 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14cebab3-cb0d-4aa5-8029-06a64970d4de")
-	)
-	(wire
-		(pts
-			(xy 85.09 219.71) (xy 85.09 214.63)
+			(xy 85.09 226.06) (xy 85.09 219.71)
 		)
 		(stroke
 			(width 0)
@@ -3493,133 +2880,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 152.4) (xy 218.44 152.4)
+			(xy 26.67 86.36) (xy 26.67 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1765a841-8d29-40d1-be5e-f1f953ce1d7a")
+		(uuid "175ebf9a-5427-4176-b9e8-f54600f66728")
 	)
 	(wire
 		(pts
-			(xy 228.6 57.15) (xy 234.95 57.15)
+			(xy 266.7 162.56) (xy 266.7 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1814d072-cd79-477e-8cae-8f4d39e68c29")
-	)
-	(wire
-		(pts
-			(xy 207.01 86.36) (xy 207.01 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18a4708c-8570-4814-bc2d-8a5922a134b1")
-	)
-	(wire
-		(pts
-			(xy 300.99 73.66) (xy 300.99 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19318dff-ca0a-4d54-9487-286aa46ea171")
-	)
-	(wire
-		(pts
-			(xy 213.36 86.36) (xy 213.36 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c062794-5f5d-4e3a-814f-282251069a64")
-	)
-	(wire
-		(pts
-			(xy 187.96 137.16) (xy 187.96 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d88e6ae-b670-4dca-95ca-a9db73fb5e16")
-	)
-	(wire
-		(pts
-			(xy 137.16 177.8) (xy 270.51 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd65e4d-e83c-4cdb-a230-a95b02173597")
-	)
-	(wire
-		(pts
-			(xy 290.83 57.15) (xy 284.48 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f55762e-6923-4c1e-968b-ad6633f5e527")
-	)
-	(wire
-		(pts
-			(xy 146.05 73.66) (xy 146.05 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2032c1e8-29a2-43ae-9af5-a8b818099d19")
-	)
-	(wire
-		(pts
-			(xy 327.66 73.66) (xy 327.66 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2038a657-f835-4088-9591-fd8456fdddd6")
-	)
-	(wire
-		(pts
-			(xy 237.49 90.17) (xy 238.76 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "203f0842-07dd-483b-b924-e181c97ecd72")
-	)
-	(wire
-		(pts
-			(xy 172.72 73.66) (xy 173.99 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21909f57-8c85-4e27-8314-235d623a2480")
-	)
-	(wire
-		(pts
-			(xy 243.84 73.66) (xy 250.19 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2235b205-03c2-464c-9c27-0eb78d8ca6b0")
+		(uuid "20c076b4-e469-4c4d-9677-725d0e2e562c")
 	)
 	(wire
 		(pts
@@ -3633,217 +2910,77 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 93.98) (xy 187.96 90.17)
+			(xy 264.16 62.23) (xy 264.16 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "233e54b2-4f99-422a-8fa4-9f237e01d5d0")
+		(uuid "28ff3d6d-48cf-47ae-95ea-7d1c6b4cf4b1")
 	)
 	(wire
 		(pts
-			(xy 152.4 69.85) (xy 152.4 73.66)
+			(xy 137.16 162.56) (xy 266.7 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24b5e419-ba6f-47ea-8631-8a821b201717")
+		(uuid "2cffb0ba-de9b-4bb5-93b0-7d3c12e9871c")
 	)
 	(wire
 		(pts
-			(xy 295.91 190.5) (xy 295.91 119.38)
+			(xy 190.5 132.08) (xy 190.5 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25eaf626-5982-4b40-ac38-1f067a8f9d98")
+		(uuid "2ea76e42-a53b-46ee-b563-cccf6e984582")
 	)
 	(wire
 		(pts
-			(xy 280.67 93.98) (xy 280.67 90.17)
+			(xy 365.76 62.23) (xy 365.76 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "261de69d-e362-465b-afd7-87af0e58a023")
+		(uuid "2f27e38e-ab40-480e-aeb9-b7b4b0c48d4a")
 	)
 	(wire
 		(pts
-			(xy 191.77 69.85) (xy 191.77 73.66)
+			(xy 137.16 193.04) (xy 342.9 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26bc563f-7930-41cd-a0fe-5370902c3158")
+		(uuid "324c5acb-f7d2-415b-a58b-e26ec4c5eb88")
 	)
 	(wire
 		(pts
-			(xy 208.28 147.32) (xy 208.28 104.14)
+			(xy 137.16 134.62) (xy 195.58 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c9121b6-83ff-45be-8c71-5482bfd25684")
+		(uuid "33f5d6fd-c60a-4af5-a140-c361d54fd99f")
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 176.53 73.66)
+			(xy 340.36 62.23) (xy 340.36 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cd528d1-11f4-45b8-bab9-1197db6db234")
+		(uuid "362e0792-6239-4390-b99e-cec25109330f")
 	)
 	(wire
 		(pts
-			(xy 275.59 86.36) (xy 275.59 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d7ba710-bccf-4e75-b652-b69cd60c57a3")
-	)
-	(wire
-		(pts
-			(xy 275.59 69.85) (xy 275.59 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dfaa877-b531-4b4f-9209-095cf0f03d02")
-	)
-	(wire
-		(pts
-			(xy 295.91 73.66) (xy 297.18 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e2657aa-1bdc-4878-a1fb-936ed4359e92")
-	)
-	(wire
-		(pts
-			(xy 137.16 180.34) (xy 275.59 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "303c3722-493a-4a5d-8a9a-5aa3a043cac1")
-	)
-	(wire
-		(pts
-			(xy 137.16 139.7) (xy 193.04 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31a179e0-4a78-4240-a6bf-c141d48a09be")
-	)
-	(wire
-		(pts
-			(xy 307.34 86.36) (xy 307.34 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32066cf9-7f5c-42d2-b864-5a53ef331bf0")
-	)
-	(wire
-		(pts
-			(xy 285.75 73.66) (xy 285.75 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32f178fc-70e9-49b9-9608-166e2c425bd3")
-	)
-	(wire
-		(pts
-			(xy 259.08 57.15) (xy 265.43 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "331a5c38-91b7-4a4b-91de-8c364e4f5653")
-	)
-	(wire
-		(pts
-			(xy 182.88 86.36) (xy 182.88 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33cc5901-6f8d-4eb2-9da8-489073aad14e")
-	)
-	(wire
-		(pts
-			(xy 157.48 121.92) (xy 157.48 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36171fbb-d1ab-4710-a0a5-a21372eaa90b")
-	)
-	(wire
-		(pts
-			(xy 157.48 93.98) (xy 157.48 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d56e7d-020b-465c-8f70-2936918cdc3e")
-	)
-	(wire
-		(pts
-			(xy 237.49 86.36) (xy 237.49 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36ef9d18-417f-4469-8a8e-889263639469")
-	)
-	(wire
-		(pts
-			(xy 322.58 203.2) (xy 322.58 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371993dd-671a-4f17-91f6-cc1691960cc0")
-	)
-	(wire
-		(pts
-			(xy 208.28 90.17) (xy 208.28 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38425cd3-e294-42de-83d2-68774731f6b3")
-	)
-	(wire
-		(pts
-			(xy 101.6 207.01) (xy 101.6 205.74)
+			(xy 101.6 212.09) (xy 101.6 205.74)
 		)
 		(stroke
 			(width 0)
@@ -3853,187 +2990,117 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 57.15) (xy 198.12 62.23)
+			(xy 238.76 62.23) (xy 238.76 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b777998-9bcb-4815-b91f-7b72eaf34cad")
+		(uuid "3d198b61-691b-46c7-9012-7307719fffa6")
 	)
 	(wire
 		(pts
-			(xy 284.48 57.15) (xy 284.48 62.23)
+			(xy 137.16 198.12) (xy 358.14 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cc885ad-aebe-462f-b873-aa4ce74174c3")
+		(uuid "3e2cb8a2-4cd3-42b6-99ab-8bb08f024dad")
 	)
 	(wire
 		(pts
-			(xy 137.16 198.12) (xy 312.42 198.12)
+			(xy 137.16 190.5) (xy 337.82 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d741aa8-b51a-4785-b1ad-7747879a6b53")
+		(uuid "3eb38226-1431-4c8c-a80b-ac6b7ee46262")
 	)
 	(wire
 		(pts
-			(xy 137.16 124.46) (xy 162.56 124.46)
+			(xy 205.74 137.16) (xy 205.74 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dae1d5d-e429-40f5-ba9f-b69e5b6468d9")
+		(uuid "40e2080a-8e68-4185-b8d5-a984affe3de8")
 	)
 	(wire
 		(pts
-			(xy 259.08 53.34) (xy 259.08 57.15)
+			(xy 215.9 142.24) (xy 215.9 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dfe9942-1099-4b78-a88a-4a8326355df1")
+		(uuid "412ced85-a67f-485b-aa37-5b925ae5701a")
 	)
 	(wire
 		(pts
-			(xy 259.08 172.72) (xy 259.08 119.38)
+			(xy 220.98 144.78) (xy 220.98 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e34c94d-ea7a-4ada-a825-e730b92bd28d")
+		(uuid "413c2b4c-57da-4c2a-99cf-7463be61f512")
 	)
 	(wire
 		(pts
-			(xy 252.73 69.85) (xy 252.73 73.66)
+			(xy 368.3 203.2) (xy 368.3 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "412117da-8cdc-4796-9653-11e2c879ca28")
+		(uuid "42b20b49-30d5-42a8-a121-02d1ef51e949")
 	)
 	(wire
 		(pts
-			(xy 275.59 180.34) (xy 275.59 104.14)
+			(xy 39.37 86.36) (xy 39.37 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4156819e-41d3-4d6a-8700-ac232c9f8a53")
+		(uuid "4450b7aa-75b3-4d0e-a00a-fdb78006e3e1")
 	)
 	(wire
 		(pts
-			(xy 284.48 69.85) (xy 284.48 73.66)
+			(xy 137.16 160.02) (xy 261.62 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41a8a31d-1cc8-43d0-90c8-10d87e9f406e")
+		(uuid "46511b91-802a-4051-9464-93adbb2bd393")
 	)
 	(wire
 		(pts
-			(xy 307.34 195.58) (xy 307.34 104.14)
+			(xy 137.16 175.26) (xy 297.18 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42a02fba-ea87-4f89-871e-7b9f37708232")
+		(uuid "47a0ae9d-465a-425d-bf7f-8e00e8048824")
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 146.05 73.66)
+			(xy 137.16 147.32) (xy 231.14 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42bbed9b-2a26-4486-b695-0d5f44f31aca")
+		(uuid "47f620ba-d614-415c-9fb6-008aac6f451f")
 	)
 	(wire
 		(pts
-			(xy 281.94 78.74) (xy 281.94 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44a5f8e6-9856-4902-8fdd-6563abf7aaac")
-	)
-	(wire
-		(pts
-			(xy 137.16 185.42) (xy 285.75 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4511d6d7-ca5f-4b66-8939-f11b401eb774")
-	)
-	(wire
-		(pts
-			(xy 187.96 90.17) (xy 189.23 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "457dfddc-4e36-4b3d-872e-1d594d2ebe76")
-	)
-	(wire
-		(pts
-			(xy 228.6 53.34) (xy 228.6 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "497a6fa2-aa48-47d6-b927-0bffbb97730d")
-	)
-	(wire
-		(pts
-			(xy 290.83 187.96) (xy 290.83 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49cc58ef-7254-4f5f-ab03-d47840281387")
-	)
-	(wire
-		(pts
-			(xy 252.73 57.15) (xy 252.73 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a614b96-0334-4dec-9e09-47ab057ba7e4")
-	)
-	(wire
-		(pts
-			(xy 307.34 73.66) (xy 307.34 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a81a11a-d7bf-48c6-953f-ffc2579a931a")
-	)
-	(wire
-		(pts
-			(xy 85.09 207.01) (xy 85.09 203.2)
+			(xy 85.09 212.09) (xy 85.09 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4043,173 +3110,83 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 116.84) (xy 147.32 116.84)
+			(xy 137.16 170.18) (xy 287.02 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4dd91395-276e-457e-ad1a-6f40e1be0953")
+		(uuid "506f8c5c-89f4-4898-8605-664135232110")
 	)
 	(wire
 		(pts
-			(xy 316.23 69.85) (xy 316.23 73.66)
+			(xy 137.16 172.72) (xy 292.1 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50225054-1054-41e7-871d-b3a435205237")
+		(uuid "50b1e3ac-dcdf-4126-92d1-4b55e0a7c0e4")
 	)
 	(wire
 		(pts
-			(xy 137.16 182.88) (xy 280.67 182.88)
+			(xy 246.38 154.94) (xy 246.38 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50550a71-0757-4a0d-8c09-7753395b87a3")
+		(uuid "53547989-82db-4286-8b43-4e1fac12c476")
 	)
 	(wire
 		(pts
-			(xy 204.47 62.23) (xy 204.47 57.15)
+			(xy 312.42 180.34) (xy 312.42 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "521b10a3-92e6-4792-8529-e4bdd4d4e850")
+		(uuid "5636fae7-817c-41e5-a78a-9456d205a9c3")
 	)
 	(wire
 		(pts
-			(xy 182.88 134.62) (xy 182.88 104.14)
+			(xy 137.16 149.86) (xy 236.22 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "538d8405-3012-4851-b1ec-f5b277990d26")
+		(uuid "566aa457-5ed3-47e4-8d01-e0cac7761b5b")
 	)
 	(wire
 		(pts
-			(xy 137.16 162.56) (xy 238.76 162.56)
+			(xy 101.6 149.86) (xy 101.6 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56231e06-fce0-4593-a8a9-03540e117323")
+		(uuid "57eea3d0-4421-4db8-9104-1ec6343c0219")
 	)
 	(wire
 		(pts
-			(xy 312.42 93.98) (xy 312.42 90.17)
+			(xy 261.62 160.02) (xy 261.62 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57b1f8de-2fed-41c0-9d83-3381fbfd771a")
+		(uuid "58ca6aee-b122-4443-aa54-c65b4003d4a7")
 	)
 	(wire
 		(pts
-			(xy 173.99 62.23) (xy 173.99 57.15)
+			(xy 165.1 121.92) (xy 165.1 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57c74863-143f-4bf2-8545-d960a0828508")
-	)
-	(wire
-		(pts
-			(xy 204.47 73.66) (xy 204.47 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57d0deb3-e5ee-4c47-98b0-5e4ae4cd725f")
-	)
-	(wire
-		(pts
-			(xy 167.64 127) (xy 167.64 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "596e9a8d-1090-4268-99a4-da3fb583cee3")
-	)
-	(wire
-		(pts
-			(xy 172.72 129.54) (xy 172.72 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5972b94c-a400-4c84-bac7-82b533fe8689")
-	)
-	(wire
-		(pts
-			(xy 254 73.66) (xy 254 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59899873-6272-44f3-a48c-b19e874ab9dc")
-	)
-	(wire
-		(pts
-			(xy 254 170.18) (xy 254 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c15086-e2fb-4ee6-a1bc-0a1f08123b5d")
-	)
-	(wire
-		(pts
-			(xy 213.36 73.66) (xy 213.36 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a278fcf-33c0-47f8-b29d-67ffb15331be")
-	)
-	(wire
-		(pts
-			(xy 137.16 147.32) (xy 208.28 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a678178-6123-4317-ad11-e908c351015e")
-	)
-	(wire
-		(pts
-			(xy 264.16 73.66) (xy 265.43 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5abe213c-4b0d-4c3e-9888-3dbbac7c1fb0")
-	)
-	(wire
-		(pts
-			(xy 313.69 90.17) (xy 313.69 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b078c04-dae8-4262-ae1f-b5c3fc0414b9")
+		(uuid "5afb8799-1797-4660-a732-85c206dd1456")
 	)
 	(wire
 		(pts
@@ -4223,323 +3200,133 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 187.96) (xy 290.83 187.96)
+			(xy 137.16 187.96) (xy 332.74 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b883343-09be-41f9-bf60-4f799edd8d96")
+		(uuid "5de232de-8171-4b24-bce6-191d21202884")
 	)
 	(wire
 		(pts
-			(xy 328.93 62.23) (xy 328.93 57.15)
+			(xy 271.78 165.1) (xy 271.78 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ef9eb91-4506-43e9-9b64-950b7e1ff280")
+		(uuid "5fcdea2a-1eb2-4012-b4e8-85b12373fa20")
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 162.56 109.22)
+			(xy 124.46 101.6) (xy 124.46 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6063ee6f-cb05-467c-9b7b-cc4775aa66a1")
+		(uuid "62cc31f4-b18e-4a9c-a596-46926ddb1276")
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 182.88 78.74)
+			(xy 137.16 139.7) (xy 210.82 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61757d2c-ee41-4938-9558-2f643fdc0730")
+		(uuid "658e0eef-80aa-40b7-af59-f54aeecbf4d8")
 	)
 	(wire
 		(pts
-			(xy 167.64 57.15) (xy 173.99 57.15)
+			(xy 137.16 121.92) (xy 165.1 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62a7fd06-2fda-42b8-8ec3-4fe5ab45beeb")
+		(uuid "6c5d44e1-56fd-4044-a502-acf734e477a9")
 	)
 	(wire
 		(pts
-			(xy 137.16 200.66) (xy 317.5 200.66)
+			(xy 137.16 119.38) (xy 160.02 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63c1786c-5f74-42f5-95bc-ba0ddf908910")
+		(uuid "6d5c034c-93e5-492b-835d-ee7e435938eb")
 	)
 	(wire
 		(pts
-			(xy 137.16 129.54) (xy 172.72 129.54)
+			(xy 39.37 66.04) (xy 26.67 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "673f094d-cf4d-4902-bf5b-d1f8ff677b64")
+		(uuid "7078a8d1-868e-482b-a76f-9ee0b8f57993")
 	)
 	(wire
 		(pts
-			(xy 213.36 149.86) (xy 213.36 104.14)
+			(xy 137.16 127) (xy 180.34 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67670510-3892-40f0-8579-c8390897ca62")
+		(uuid "70ec95f6-dc0e-4259-8469-16f531e5d29b")
 	)
 	(wire
 		(pts
-			(xy 189.23 78.74) (xy 189.23 73.66)
+			(xy 347.98 195.58) (xy 347.98 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b4a1c19-c792-4871-9e65-008d0cc4e99f")
+		(uuid "714885bb-b1ae-4be0-ac3d-0c494f9cda45")
 	)
 	(wire
 		(pts
-			(xy 297.18 73.66) (xy 297.18 69.85)
+			(xy 162.56 62.23) (xy 162.56 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bfd4d98-3a27-45a2-a317-6d0796b80b12")
+		(uuid "7b6b1069-6094-4135-a428-99da63d4de48")
 	)
 	(wire
 		(pts
-			(xy 243.84 73.66) (xy 243.84 78.74)
+			(xy 287.02 170.18) (xy 287.02 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c9094d1-ed8c-409f-b1f4-47327c5793e4")
+		(uuid "7bc28cba-70df-4da8-85d3-4c379279b5ae")
 	)
 	(wire
 		(pts
-			(xy 193.04 73.66) (xy 193.04 109.22)
+			(xy 185.42 129.54) (xy 185.42 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f4278f0-3c6f-4fb1-8e47-6ca3910b9a96")
+		(uuid "7be4db2b-36a2-427d-a600-039638756e61")
 	)
 	(wire
 		(pts
-			(xy 316.23 57.15) (xy 316.23 62.23)
+			(xy 137.16 182.88) (xy 317.5 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fb6186c-63fe-4d81-b869-2ef25e395f86")
-	)
-	(wire
-		(pts
-			(xy 269.24 73.66) (xy 269.24 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706d3797-b0b8-4486-8fe2-7f3a485b90d9")
-	)
-	(wire
-		(pts
-			(xy 228.6 69.85) (xy 228.6 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f12585-7873-4133-98d5-09c487c74db6")
-	)
-	(wire
-		(pts
-			(xy 152.4 73.66) (xy 158.75 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "730be6c7-d747-40d5-aab6-70b0d8c9c1d6")
-	)
-	(wire
-		(pts
-			(xy 193.04 139.7) (xy 193.04 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7349bc38-ca95-4692-8a1f-0f84b955288c")
-	)
-	(wire
-		(pts
-			(xy 284.48 73.66) (xy 285.75 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7379589f-6d63-4a0f-aa66-5e605c05d4d9")
-	)
-	(wire
-		(pts
-			(xy 307.34 73.66) (xy 300.99 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b4602e-7e88-45b0-9b7e-e82279bdc4fe")
-	)
-	(wire
-		(pts
-			(xy 198.12 142.24) (xy 198.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74af40c4-29c0-4052-a19b-7922915f8f37")
-	)
-	(wire
-		(pts
-			(xy 218.44 93.98) (xy 218.44 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7631ba9e-c08a-4c96-822a-f6e98582478d")
-	)
-	(wire
-		(pts
-			(xy 177.8 132.08) (xy 177.8 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "789020a0-bc7d-444a-b9df-e1dfec2bb5d8")
-	)
-	(wire
-		(pts
-			(xy 234.95 62.23) (xy 234.95 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b5027f2-892e-4071-8e0b-20535b9139bb")
-	)
-	(wire
-		(pts
-			(xy 146.05 86.36) (xy 146.05 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b7fae98-0e44-4cce-96f9-af46c9f08475")
-	)
-	(wire
-		(pts
-			(xy 137.16 170.18) (xy 254 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4a782c-784b-4de1-8fa5-2f2fa62d4610")
-	)
-	(wire
-		(pts
-			(xy 228.6 57.15) (xy 228.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e9670b9-6b50-4b3a-a7ed-54f224af9551")
-	)
-	(wire
-		(pts
-			(xy 213.36 69.85) (xy 213.36 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f8db902-ba01-4003-990e-6491ddc53ac3")
-	)
-	(wire
-		(pts
-			(xy 198.12 69.85) (xy 198.12 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81cd2a2b-158c-4d88-bccb-dd69ebab8cf6")
-	)
-	(wire
-		(pts
-			(xy 223.52 73.66) (xy 223.52 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "835d6b1f-1b12-40eb-88eb-08f54c4fa732")
-	)
-	(wire
-		(pts
-			(xy 137.16 137.16) (xy 187.96 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83d6d024-d3c9-4038-a2d8-5c288a4c7574")
-	)
-	(wire
-		(pts
-			(xy 264.16 73.66) (xy 264.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84395b63-f0f8-48b6-bcc5-8b803457205b")
-	)
-	(wire
-		(pts
-			(xy 137.16 142.24) (xy 198.12 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85cc19bf-c919-44f1-8f3a-02682dbd6d7c")
+		(uuid "7efd9459-e4af-4e59-b904-842577b06acd")
 	)
 	(wire
 		(pts
@@ -4553,343 +3340,83 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 158.75 73.66)
+			(xy 281.94 167.64) (xy 281.94 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8673ee1c-73b4-4bf1-bdd1-2ad8f752afee")
+		(uuid "87e763bb-910a-4c3b-950a-61bf72047f54")
 	)
 	(wire
 		(pts
-			(xy 307.34 69.85) (xy 307.34 73.66)
+			(xy 137.16 200.66) (xy 363.22 200.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86c15049-d900-4d03-8e50-88ee89847015")
+		(uuid "8b0dc637-4ad9-4aa2-a77e-62c49569ed5e")
 	)
 	(wire
 		(pts
-			(xy 207.01 73.66) (xy 207.01 78.74)
+			(xy 137.16 132.08) (xy 190.5 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8aeb95bb-e113-4cd1-b203-6c2ab18de9b9")
+		(uuid "918594eb-4f48-4efa-9821-3e628cd16e1e")
 	)
 	(wire
 		(pts
-			(xy 313.69 78.74) (xy 313.69 73.66)
+			(xy 187.96 62.23) (xy 187.96 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8bd9492e-8541-40ce-829a-99dde94476eb")
+		(uuid "92d88a5c-7412-4427-8b2d-bfa8b28001c7")
 	)
 	(wire
 		(pts
-			(xy 265.43 73.66) (xy 265.43 69.85)
+			(xy 256.54 157.48) (xy 256.54 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d64eb40-7da7-4b44-8eab-44a3d5410fb8")
+		(uuid "9b776d35-56d5-4da6-86ec-421c4da19f8c")
 	)
 	(wire
 		(pts
-			(xy 137.16 175.26) (xy 264.16 175.26)
+			(xy 137.16 144.78) (xy 220.98 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8da75913-545f-4a47-a92a-35a39ecea183")
+		(uuid "9c764d1f-fa33-465a-8dbe-a41c59cfc5d7")
 	)
 	(wire
 		(pts
-			(xy 300.99 90.17) (xy 302.26 90.17)
+			(xy 307.34 177.8) (xy 307.34 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ec2bd91-0523-4f79-ac70-8b549adee05c")
+		(uuid "9e6dc33c-0507-4819-9666-fd22f6bb4bc0")
 	)
 	(wire
 		(pts
-			(xy 137.16 144.78) (xy 203.2 144.78)
+			(xy 373.38 205.74) (xy 373.38 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fb1ca63-fe77-4338-9e2f-341d9604b522")
-	)
-	(wire
-		(pts
-			(xy 297.18 62.23) (xy 297.18 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9088ad35-3b6d-40c4-b7ac-176ac2e79ef0")
-	)
-	(wire
-		(pts
-			(xy 248.92 93.98) (xy 248.92 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "908e2b43-64f2-4ff1-adeb-01a5ea28c4c8")
-	)
-	(wire
-		(pts
-			(xy 198.12 57.15) (xy 191.77 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9298d27f-8a2f-42c1-8054-61d2662a704a")
-	)
-	(wire
-		(pts
-			(xy 189.23 90.17) (xy 189.23 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92bb25c3-a175-44be-a8af-d97090183d1d")
-	)
-	(wire
-		(pts
-			(xy 322.58 57.15) (xy 322.58 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93fd0f1b-a085-43f5-afa1-06ddc713aabf")
-	)
-	(wire
-		(pts
-			(xy 328.93 73.66) (xy 328.93 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "960b548a-a321-4853-8177-00de02e8fb40")
-	)
-	(wire
-		(pts
-			(xy 259.08 57.15) (xy 259.08 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ae494b-ee33-400c-b6ab-a85dfc9ed70c")
-	)
-	(wire
-		(pts
-			(xy 218.44 152.4) (xy 218.44 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972f58ee-636d-43c6-bbe3-84c66ef818e2")
-	)
-	(wire
-		(pts
-			(xy 228.6 157.48) (xy 228.6 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98dfe795-47bf-4779-a53e-9db62c4eeaaa")
-	)
-	(wire
-		(pts
-			(xy 238.76 90.17) (xy 238.76 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "998cce08-b500-4252-bf85-42160a5a6d78")
-	)
-	(wire
-		(pts
-			(xy 198.12 53.34) (xy 198.12 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a428d2c-4b8c-4f40-ba90-6e255f034496")
-	)
-	(wire
-		(pts
-			(xy 243.84 73.66) (xy 237.49 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d005f95-48f0-465f-9853-f91d7aaf6fc2")
-	)
-	(wire
-		(pts
-			(xy 137.16 172.72) (xy 259.08 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d3ec471-1ee5-48c5-a6d9-f5ff1265225e")
-	)
-	(wire
-		(pts
-			(xy 322.58 57.15) (xy 316.23 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d8c615a-d79b-4bae-8e67-7b44124b05e4")
-	)
-	(wire
-		(pts
-			(xy 172.72 73.66) (xy 172.72 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d8fd70f-53d7-448b-ac9a-1095af4ccb78")
-	)
-	(wire
-		(pts
-			(xy 327.66 205.74) (xy 327.66 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9efe790c-c393-4674-a5b6-c63e87453f22")
-	)
-	(wire
-		(pts
-			(xy 317.5 73.66) (xy 317.5 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f9a516f-52b4-4b1e-a233-7cb563a0fc0c")
-	)
-	(wire
-		(pts
-			(xy 162.56 124.46) (xy 162.56 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0f7c79b-b9c5-48cc-9b88-85b12980f308")
-	)
-	(wire
-		(pts
-			(xy 152.4 119.38) (xy 152.4 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1a7de6f-7d13-4349-ad50-685c856b016c")
-	)
-	(wire
-		(pts
-			(xy 137.16 132.08) (xy 177.8 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a224a14a-05e0-4b78-8713-7399bd3aeb0f")
-	)
-	(wire
-		(pts
-			(xy 234.95 73.66) (xy 234.95 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a27bf9b5-8fa7-4035-a867-6ba5a12cffaf")
-	)
-	(wire
-		(pts
-			(xy 317.5 200.66) (xy 317.5 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a47a456b-c40e-4d53-bf8a-401156e8c7cc")
-	)
-	(wire
-		(pts
-			(xy 137.16 154.94) (xy 223.52 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a518bb7b-9453-4c60-a1b2-6904303eed03")
-	)
-	(wire
-		(pts
-			(xy 302.26 193.04) (xy 302.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a525105f-b240-4daf-9f1e-ff7bbab4d590")
-	)
-	(wire
-		(pts
-			(xy 137.16 190.5) (xy 295.91 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a54c9d64-95b2-4807-a705-5a6e83d59137")
-	)
-	(wire
-		(pts
-			(xy 322.58 53.34) (xy 322.58 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a665dc55-1300-4894-b72c-6b12f1fd4d36")
+		(uuid "9fbdd519-fe91-44da-b28c-7716833c3454")
 	)
 	(wire
 		(pts
@@ -4903,153 +3430,43 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 167.64) (xy 248.92 167.64)
+			(xy 39.37 71.12) (xy 39.37 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a92bcae7-ca8f-4d35-ab6f-92255cb8669e")
+		(uuid "a89b07b5-c47c-4625-be7e-07ed8bdfd000")
 	)
 	(wire
 		(pts
-			(xy 243.84 69.85) (xy 243.84 73.66)
+			(xy 322.58 185.42) (xy 322.58 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a957ad2a-be26-4270-b1f0-7bb31689d182")
+		(uuid "af4a3398-545b-4b29-8681-a40dd3eb84d4")
 	)
 	(wire
 		(pts
-			(xy 243.84 165.1) (xy 243.84 104.14)
+			(xy 314.96 62.23) (xy 314.96 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa25f3f8-4ea5-482f-a9a6-9d328a1973cd")
+		(uuid "b4a396e0-ce02-4725-a1f4-2471fa18043f")
 	)
 	(wire
 		(pts
-			(xy 233.68 73.66) (xy 233.68 109.22)
+			(xy 292.1 172.72) (xy 292.1 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa2daac3-cb11-4801-93bc-c70cf49352c3")
-	)
-	(wire
-		(pts
-			(xy 152.4 73.66) (xy 152.4 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa39912e-8b8d-4fd9-a665-47ef0ef78945")
-	)
-	(wire
-		(pts
-			(xy 182.88 69.85) (xy 182.88 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa3d0766-d821-44a4-9e6d-fcea48f3f7a9")
-	)
-	(wire
-		(pts
-			(xy 207.01 90.17) (xy 208.28 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa8f7456-7f8b-4fcd-b9af-66c90d6d53ff")
-	)
-	(wire
-		(pts
-			(xy 137.16 149.86) (xy 213.36 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abec21c1-6cf9-416d-9474-9426dfe2c3f2")
-	)
-	(wire
-		(pts
-			(xy 167.64 69.85) (xy 167.64 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acae1aa3-38d9-4f93-8233-f40204afd68a")
-	)
-	(wire
-		(pts
-			(xy 219.71 78.74) (xy 219.71 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af1b0779-9b99-4818-9498-d6eb5d68a8c9")
-	)
-	(wire
-		(pts
-			(xy 137.16 119.38) (xy 152.4 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0f03e9d-47eb-41cf-85d8-8ab333e84f6b")
-	)
-	(wire
-		(pts
-			(xy 137.16 127) (xy 167.64 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b17553f2-f8c9-46db-b4bd-eeb0de0a9208")
-	)
-	(wire
-		(pts
-			(xy 302.26 90.17) (xy 302.26 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1ba1d62-f5c9-4a8e-9be3-410cef92be88")
-	)
-	(wire
-		(pts
-			(xy 295.91 73.66) (xy 295.91 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2e96721-83bc-43ba-bcef-30c24a3af4c5")
-	)
-	(wire
-		(pts
-			(xy 290.83 53.34) (xy 290.83 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4619222-27a1-4127-8a78-11d8bb5cdcf9")
+		(uuid "b4dfd168-c6db-4e66-9197-e1b84dedc72a")
 	)
 	(wire
 		(pts
@@ -5063,56 +3480,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 144.78) (xy 203.2 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b639d1e5-f0b7-41d4-92f8-f8bdc7e0c5b1")
-	)
-	(wire
-		(pts
-			(xy 213.36 73.66) (xy 219.71 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b682a96c-25ca-4e0f-b5ad-c735384018a7")
-	)
-	(wire
-		(pts
-			(xy 137.16 195.58) (xy 307.34 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6fdcd9d-95ca-4783-8395-77f38ddf9211")
-	)
-	(wire
-		(pts
-			(xy 259.08 57.15) (xy 252.73 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b80c07ce-f6ba-48ea-ac91-7b0096e45db6")
-	)
-	(wire
-		(pts
-			(xy 137.16 157.48) (xy 228.6 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8954245-3c42-4397-81e6-72d91098618b")
-	)
-	(wire
-		(pts
 			(xy 85.09 203.2) (xy 111.76 203.2)
 		)
 		(stroke
@@ -5123,343 +3490,223 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 165.1) (xy 243.84 165.1)
+			(xy 137.16 167.64) (xy 281.94 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba7b0610-8fe4-4226-8c25-c4d44ea24d02")
+		(uuid "b91f0141-b8a6-42cd-b07c-fd8ae3e2f515")
 	)
 	(wire
 		(pts
-			(xy 264.16 175.26) (xy 264.16 119.38)
+			(xy 154.94 116.84) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba98de1b-dd21-431f-adff-4d4379c71c7e")
+		(uuid "ba156389-3b3e-4f7a-aea6-ba22dd21e1c6")
 	)
 	(wire
 		(pts
-			(xy 137.16 160.02) (xy 233.68 160.02)
+			(xy 332.74 187.96) (xy 332.74 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb4da034-c4be-42db-a8df-f5c3764f2204")
+		(uuid "bae67702-b07f-4a1d-9fca-aa7f99486ea5")
 	)
 	(wire
 		(pts
-			(xy 176.53 90.17) (xy 177.8 90.17)
+			(xy 358.14 198.12) (xy 358.14 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc3eb3e3-3962-4598-887a-fb1f490a839a")
+		(uuid "be0b61aa-6e31-4d58-880f-401379adf47a")
 	)
 	(wire
 		(pts
-			(xy 312.42 90.17) (xy 313.69 90.17)
+			(xy 195.58 134.62) (xy 195.58 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd817be7-1093-4eb3-b18d-f16a9374f5c1")
+		(uuid "bf19b0a1-2d6a-4af6-8d8e-107b6482a07a")
 	)
 	(wire
 		(pts
-			(xy 252.73 73.66) (xy 254 73.66)
+			(xy 137.16 142.24) (xy 215.9 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4b060c6-36d5-4a1c-9135-b6edb77f15b8")
+		(uuid "c262e0d2-1cd3-421c-b665-d527f3fbe29c")
 	)
 	(wire
 		(pts
-			(xy 290.83 57.15) (xy 290.83 62.23)
+			(xy 137.16 185.42) (xy 322.58 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4ba1f78-c4c1-4cfe-b30d-eec694682332")
+		(uuid "c47defcf-c4e0-45fd-a41f-7a26ad28189f")
 	)
 	(wire
 		(pts
-			(xy 322.58 69.85) (xy 322.58 109.22)
+			(xy 88.9 143.51) (xy 88.9 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8731c73-b09c-471e-a992-df91d959ba01")
+		(uuid "c4807de7-9e7d-437c-a9d4-f2d0c0c8e312")
 	)
 	(wire
 		(pts
-			(xy 213.36 73.66) (xy 207.01 73.66)
+			(xy 137.16 165.1) (xy 271.78 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9095151-c819-4d93-86af-c167e479fe15")
+		(uuid "c59c9b97-c7c5-4479-a1d1-83915a4cb560")
 	)
 	(wire
 		(pts
-			(xy 223.52 154.94) (xy 223.52 119.38)
+			(xy 210.82 139.7) (xy 210.82 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c97f7ea8-a2ce-4f9b-b940-690a585e9c16")
+		(uuid "c5c49709-cbc3-48c4-9104-e7c6dfb66411")
 	)
 	(wire
 		(pts
-			(xy 222.25 69.85) (xy 222.25 73.66)
+			(xy 137.16 116.84) (xy 154.94 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca81a6d7-6275-481c-bc9f-0ad179a1a870")
+		(uuid "c7f74304-d051-431d-b1c2-7511f1b95434")
 	)
 	(wire
 		(pts
-			(xy 248.92 90.17) (xy 250.19 90.17)
+			(xy 137.16 205.74) (xy 373.38 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca874b98-49c1-4982-87e2-5a651c10b5ea")
+		(uuid "c9822576-4fa9-4a86-8cd5-a49f652ce0e2")
 	)
 	(wire
 		(pts
-			(xy 300.99 86.36) (xy 300.99 90.17)
+			(xy 337.82 190.5) (xy 337.82 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd9254fb-da20-4f2c-be87-c1059c2509ae")
+		(uuid "c9e81bb8-2c61-4f6c-9d77-1be150382a89")
 	)
 	(wire
 		(pts
-			(xy 152.4 86.36) (xy 152.4 93.98)
+			(xy 137.16 195.58) (xy 347.98 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd9a280a-379b-490e-a2a3-2ba9bb6883b7")
+		(uuid "ca56d493-5627-48c5-8318-038e77393df8")
 	)
 	(wire
 		(pts
-			(xy 248.92 167.64) (xy 248.92 104.14)
+			(xy 289.56 62.23) (xy 289.56 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cef5fdbe-79f6-402a-b441-2661fbdd9fec")
+		(uuid "d1f5be45-72ac-426b-8543-273060c48aed")
 	)
 	(wire
 		(pts
-			(xy 137.16 203.2) (xy 322.58 203.2)
+			(xy 213.36 62.23) (xy 213.36 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cff92c1d-b6f5-4f80-a558-298e277a4a01")
+		(uuid "d2fe4c54-ce8f-4351-8638-d1aca61c2004")
 	)
 	(wire
 		(pts
-			(xy 280.67 182.88) (xy 280.67 104.14)
+			(xy 137.16 180.34) (xy 312.42 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2ebb63a-4d4c-4c19-9f9c-a3c0752d01df")
+		(uuid "d3dfa792-d043-4945-8c3d-bcbe50a21210")
 	)
 	(wire
 		(pts
-			(xy 275.59 73.66) (xy 281.94 73.66)
+			(xy 363.22 200.66) (xy 363.22 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7881829-010f-46cc-88c8-7a904ba5cd36")
+		(uuid "d94d45e9-dd68-4f0a-b425-73a4f140d7f4")
 	)
 	(wire
 		(pts
-			(xy 203.2 73.66) (xy 203.2 109.22)
+			(xy 317.5 182.88) (xy 317.5 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d96e7a6d-1bb0-4839-833f-d93835982a70")
+		(uuid "dcf6bd52-fad9-43f3-8183-dd899362b5c5")
 	)
 	(wire
 		(pts
-			(xy 222.25 57.15) (xy 222.25 62.23)
+			(xy 137.16 157.48) (xy 256.54 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db39e9e6-5b33-434c-8a9e-1dc2f41400fb")
+		(uuid "e02981ab-417c-41cd-bd22-d938338df9b4")
 	)
 	(wire
 		(pts
-			(xy 161.29 57.15) (xy 161.29 62.23)
+			(xy 137.16 129.54) (xy 185.42 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbed97ee-a437-439a-b4f4-f1ce3dc9fbeb")
+		(uuid "e1f7daa6-9305-47d7-a6b7-c5f2a1b2c56c")
 	)
 	(wire
 		(pts
-			(xy 285.75 185.42) (xy 285.75 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd2adf27-2ec3-4534-9d09-13aa3fd88202")
-	)
-	(wire
-		(pts
-			(xy 237.49 73.66) (xy 237.49 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de05ded9-6fa6-44eb-8f5d-0307a868adee")
-	)
-	(wire
-		(pts
-			(xy 167.64 53.34) (xy 167.64 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e04d326b-bbac-4be0-bacd-f1cc63bcb06b")
-	)
-	(wire
-		(pts
-			(xy 316.23 73.66) (xy 317.5 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e13530eb-7e2f-4809-9bf9-22f102ba4b8a")
-	)
-	(wire
-		(pts
-			(xy 233.68 160.02) (xy 233.68 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e20bf321-3ebd-4620-9011-376c8d15d558")
-	)
-	(wire
-		(pts
-			(xy 275.59 73.66) (xy 275.59 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e217b3bc-54e6-4327-9f24-42730912b482")
-	)
-	(wire
-		(pts
-			(xy 92.71 135.89) (xy 92.71 124.46)
+			(xy 88.9 135.89) (xy 88.9 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e2c1e828-2fa5-4293-ac29-c8fcffebfbf9")
-	)
-	(wire
-		(pts
-			(xy 275.59 73.66) (xy 269.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3328edb-1f68-44aa-956c-f1f76974f329")
-	)
-	(wire
-		(pts
-			(xy 322.58 57.15) (xy 328.93 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e44ef56a-766c-41ac-a963-35789b459d3d")
-	)
-	(wire
-		(pts
-			(xy 238.76 162.56) (xy 238.76 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4889ddf-fffa-4c6f-8141-bb309a407a79")
-	)
-	(wire
-		(pts
-			(xy 137.16 205.74) (xy 327.66 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4df8b38-d075-42c2-9cd3-2ddb1d4bb0ab")
-	)
-	(wire
-		(pts
-			(xy 176.53 86.36) (xy 176.53 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e57fc868-344c-4f72-ae4d-ffcb47da36a8")
-	)
-	(wire
-		(pts
-			(xy 270.51 177.8) (xy 270.51 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5819096-dd33-46d3-a738-411bdd91cacf")
 	)
 	(wire
 		(pts
@@ -5473,137 +3720,47 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 90.17) (xy 147.32 93.98)
+			(xy 180.34 127) (xy 180.34 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e71b079c-e1ee-4185-91b5-8ae9ef895850")
+		(uuid "e9f88396-c65e-4ae6-9ab2-a4c9e1bfae0b")
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 147.32 90.17)
+			(xy 26.67 62.23) (xy 26.67 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea4f3731-f82d-457b-8257-2593bf45a878")
+		(uuid "ea5c33a2-9a2f-48ad-9fba-cdccb467cf72")
 	)
 	(wire
 		(pts
-			(xy 233.68 73.66) (xy 234.95 73.66)
+			(xy 236.22 149.86) (xy 236.22 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eba84943-796e-490d-9687-af1767975895")
+		(uuid "f13832ed-01f2-4de6-aa52-c72c73133b55")
 	)
 	(wire
 		(pts
-			(xy 161.29 69.85) (xy 161.29 73.66)
+			(xy 297.18 175.26) (xy 297.18 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec153a2d-b0e7-4d1c-8705-8cd112f7b5ca")
+		(uuid "f207f34c-a3e1-442e-ba05-d1512621f512")
 	)
 	(wire
 		(pts
-			(xy 198.12 57.15) (xy 204.47 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf0f79b-4485-4862-ab26-01c0228a7ff8")
-	)
-	(wire
-		(pts
-			(xy 203.2 73.66) (xy 204.47 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c35815-7575-48e7-9fc0-32c4e0466c22")
-	)
-	(wire
-		(pts
-			(xy 243.84 86.36) (xy 243.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f220607e-0069-4c62-b5ad-70d6a271415e")
-	)
-	(wire
-		(pts
-			(xy 269.24 90.17) (xy 270.51 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e35af9-00ea-430c-99de-8523b09f5779")
-	)
-	(wire
-		(pts
-			(xy 218.44 90.17) (xy 219.71 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f31c3c1e-d6ee-4177-a45a-e6729e2bee6c")
-	)
-	(wire
-		(pts
-			(xy 228.6 57.15) (xy 222.25 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f422dbcf-ff0f-4679-b041-236baddfb70c")
-	)
-	(wire
-		(pts
-			(xy 191.77 57.15) (xy 191.77 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f47b0f65-1f15-4b64-8e7e-13892886badc")
-	)
-	(wire
-		(pts
-			(xy 167.64 57.15) (xy 167.64 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f661b5ca-43c6-45c5-9ece-071e2e11bf2b")
-	)
-	(wire
-		(pts
-			(xy 270.51 90.17) (xy 270.51 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f693fd56-e8a2-48e8-a8fa-9604484e07ef")
-	)
-	(wire
-		(pts
-			(xy 92.71 124.46) (xy 111.76 124.46)
+			(xy 88.9 124.46) (xy 111.76 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5613,87 +3770,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 189.23 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8251826-e8bd-475d-87fb-a0a7d76b6280")
-	)
-	(wire
-		(pts
-			(xy 137.16 134.62) (xy 182.88 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f910994d-2f70-4a51-9043-062cc32c13ab")
-	)
-	(wire
-		(pts
-			(xy 269.24 86.36) (xy 269.24 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f930da97-b389-4f7d-918a-c53a133eb733")
-	)
-	(wire
-		(pts
-			(xy 290.83 69.85) (xy 290.83 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f99c779e-b4c9-4333-af3a-5bb547b26374")
-	)
-	(wire
-		(pts
-			(xy 158.75 90.17) (xy 158.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d0f3d7-74f0-4ff5-ba4d-136da03d81a9")
-	)
-	(wire
-		(pts
-			(xy 307.34 73.66) (xy 313.69 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa214306-a725-44b5-a5c1-6eceae465a00")
-	)
-	(wire
-		(pts
-			(xy 280.67 90.17) (xy 281.94 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fad0ebef-b7d9-43e8-95cd-37b80eddf87c")
-	)
-	(wire
-		(pts
-			(xy 167.64 57.15) (xy 161.29 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb009cb7-1af1-4a63-b9f2-bc0e3c5590cc")
-	)
-	(wire
-		(pts
-			(xy 124.46 219.71) (xy 124.46 210.82)
+			(xy 124.46 226.06) (xy 124.46 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5703,36 +3780,64 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 78.74) (xy 250.19 73.66)
+			(xy 170.18 124.46) (xy 170.18 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fccf446e-f29c-43b8-aee3-0eecc373d36b")
+		(uuid "ff1783e4-e043-4c1d-9158-3ed7dbf29094")
 	)
-	(wire
-		(pts
-			(xy 157.48 90.17) (xy 158.75 90.17)
+	(text "LEDs will be place on TOP side of the PCB"
+		(exclude_from_sim no)
+		(at 310.134 214.884 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.905 1.905)
+			)
+			(justify left)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6cb7d4-97ed-4e05-8a21-4cb2ae0f363b")
+		(uuid "21eb3d7d-ee42-46c8-8cf1-3a1dab03708f")
 	)
-	(wire
-		(pts
-			(xy 259.08 69.85) (xy 259.08 109.22)
+	(text "LED Controller"
+		(exclude_from_sim no)
+		(at 15.24 23.368 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify left)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "594c9405-2f03-44fd-a7ce-d6fcb3c8b361")
+	)
+	(text "Place all decoupling caps \nas close as the supply pins\nas possible! "
+		(exclude_from_sim no)
+		(at 64.516 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 253 0 0 1)
+			)
 		)
-		(uuid "ffe97456-2c73-4932-a95a-a887b0411287")
+		(uuid "cfb37ecb-9623-4c01-9c4e-82985bfd83f4")
+	)
+	(text "LED Controller will be place on bottom side of the pcb.\nEvery Diode is current controlled with one channel.\n"
+		(exclude_from_sim no)
+		(at 24.892 168.402 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "f252a3f1-20d0-4a82-9614-910cd57c7baf")
 	)
 	(label "LP_SCL"
-		(at 104.14 119.38 0)
+		(at 100.33 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5743,7 +3848,7 @@
 		(uuid "5f3ae636-e19e-4451-ab51-0f56cdcad0bd")
 	)
 	(label "LP_SDA"
-		(at 104.14 121.92 0)
+		(at 100.33 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5754,7 +3859,7 @@
 		(uuid "ab3c7fa5-16d0-47ee-b460-08399db8f5e6")
 	)
 	(label "LP_EN"
-		(at 104.14 116.84 0)
+		(at 100.33 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5764,51 +3869,7 @@
 		)
 		(uuid "b2aa8118-821d-4bc8-9444-95f1aa6844a8")
 	)
-	(global_label "LP_SCL"
-		(shape input)
-		(at 88.9 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11cb2191-73d3-4771-a75e-38e3fd3f470d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.1415 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LP_SDA"
-		(shape input)
-		(at 88.9 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84a1fcd3-0c12-4bff-8c88-196a7b2b2725")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.081 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LP_EN"
+	(hierarchical_label "LP_EN"
 		(shape input)
 		(at 88.9 116.84 180)
 		(fields_autoplaced yes)
@@ -5818,96 +3879,43 @@
 			)
 			(justify right)
 		)
-		(uuid "887a5483-6897-4101-b701-30e8b5d35671")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.1696 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "04f000b7-db92-4180-ba70-e046d02ec62f")
+	)
+	(hierarchical_label "LP_SDA"
+		(shape input)
+		(at 88.9 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "ef2b559d-9905-4638-9ef0-ec6eb79af09e")
+	)
+	(hierarchical_label "LP_SCL"
+		(shape input)
+		(at 88.9 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f79da1ce-014b-416f-b374-a6f167236fe1")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 259.08 53.34 0)
+		(lib_id "Device:C")
+		(at 39.37 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "006fbf7c-36d8-4827-9c55-d9411ac242a4")
-		(property "Reference" "#PWR0410"
-			(at 259.08 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 259.08 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 259.08 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d13c8d8-7bf9-42eb-99aa-9fe1064e96e5")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0410")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 101.6 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03633931-6682-4416-841d-2343466bd5e1")
-		(property "Reference" "R441"
-			(at 104.14 209.5499 0)
+		(uuid "01c591b8-581a-48a6-b771-9fabf9c6ba5a")
+		(property "Reference" "C302"
+			(at 35.814 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,8 +3923,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k 5%"
-			(at 104.14 212.0899 0)
+		(property "Value" "100nF 50V"
+			(at 43.18 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +3933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.822 210.82 90)
+			(at 40.3352 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +3942,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 210.82 0)
+			(at 39.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab4355ff-3f6c-4b82-9980-79bf8999c652")
+		)
+		(pin "1"
+			(uuid "382c6c0d-d836-454d-aad5-e6da80d501d4")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "C302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03633931-6682-4416-841d-2343466bd5e1")
+		(property "Reference" "R303"
+			(at 104.14 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k 5%"
+			(at 104.14 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.822 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +4021,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 210.82 0)
+			(at 101.6 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,24 +4038,24 @@
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R441")
+					(reference "R303")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 85.09 219.71 0)
+		(lib_id "power:+5V")
+		(at 314.96 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0db06a75-b00a-432c-a684-39017580cb7b")
-		(property "Reference" "#PWR0417"
-			(at 85.09 226.06 0)
+		(uuid "09606f44-de6e-4467-9cac-2361c0f66d7e")
+		(property "Reference" "#PWR0316"
+			(at 314.96 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,8 +4063,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 85.09 224.79 0)
+		(property "Value" "+5V"
+			(at 314.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +4072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 219.71 0)
+			(at 314.96 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +4081,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 219.71 0)
+			(at 314.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 314.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e72abc72-b906-4b35-beb3-7e22518681b4")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "#PWR0316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0db06a75-b00a-432c-a684-39017580cb7b")
+		(property "Reference" "#PWR0304"
+			(at 85.09 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +4156,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 219.71 0)
+			(at 85.09 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,111 +4170,24 @@
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0417")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 237.49 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13673f93-e000-4e0c-bf7e-5b963051bf3e")
-		(property "Reference" "R413"
-			(at 235.204 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 239.776 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 235.712 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53953c68-8840-4203-9e39-ca0de525d657")
-		)
-		(pin "1"
-			(uuid "e6836c7f-12ac-4a05-a2d0-e02a95fbeba1")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R413")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 182.88 99.06 270)
+		(lib_id "power:+5V")
+		(at 340.36 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "16cfa143-1d16-4236-8068-c7d652e1cb2a")
-		(property "Reference" "D402"
-			(at 193.04 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 193.04 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 173.99 99.06 0)
+		(uuid "1da09aa5-00ee-4ae8-9c0c-f81cfe2c53dc")
+		(property "Reference" "#PWR0317"
+			(at 340.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,279 +4195,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 181.61 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 182.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0c29ec1a-04de-4b2b-878f-cb79e07b01c5")
-		)
-		(pin "1"
-			(uuid "1b887446-f5da-45db-8851-cd6ea89c628e")
-		)
-		(pin "6"
-			(uuid "0e58e8ed-85c6-41f2-a5f3-c0172d861d4a")
-		)
-		(pin "5"
-			(uuid "c8df7724-cd45-4109-bac2-e395d9716c21")
-		)
-		(pin "3"
-			(uuid "de4f8f33-f89e-41e9-823a-d0aa300e2632")
-		)
-		(pin "4"
-			(uuid "08430228-c819-46c8-82df-ce2e350ece68")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 284.48 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18ec9947-94cb-4129-9f97-903c564aab3f")
-		(property "Reference" "R431"
-			(at 282.194 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 286.766 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 282.702 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 284.48 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 284.48 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4864c172-311f-48c4-8ad2-dbcd0ccc1c02")
-		)
-		(pin "1"
-			(uuid "ee2bf04d-4470-440b-bfe5-835393f143a9")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R431")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 219.71 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b6e55c3-3d9e-4c6b-b0e7-bcf4024c0de5")
-		(property "Reference" "R412"
-			(at 217.424 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 221.996 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.932 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 219.71 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24f4840b-4ea5-42be-b6c8-f2409e110a2c")
-		)
-		(pin "1"
-			(uuid "36c62c5c-d85d-42df-bf4a-c4f4dc3d8231")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R412")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 167.64 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bed91a5-c202-426b-a1d4-64df590f06f4")
-		(property "Reference" "R405"
-			(at 165.354 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 169.926 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.862 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 167.64 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d82bacbe-de52-4a16-b3ac-512296e98722")
-		)
-		(pin "1"
-			(uuid "ccae4bc2-fb3e-4983-86fe-749ae693c29e")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23ea8101-d17b-4394-bab5-2fe5ade7971a")
-		(property "Reference" "#PWR0419"
-			(at 124.46 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 224.79 0)
+		(property "Value" "+5V"
+			(at 340.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,7 +4204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 219.71 0)
+			(at 340.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,7 +4213,205 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 219.71 0)
+			(at 340.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 340.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e7cb120-0324-4dd1-a046-9277d172bf3f")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "#PWR0317")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 213.36 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e02a1e1-2f2d-4c6a-9491-0fecb2529391")
+		(property "Reference" "#PWR0312"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 213.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85f11069-7d7b-4e2f-9079-7ba943f98250")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "#PWR0312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 264.16 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "225e96e5-f9db-4dcf-822e-73e213c828cf")
+		(property "Reference" "#PWR0314"
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 264.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90ad7e91-08de-42f1-a4d0-42a256ce0d49")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "#PWR0314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23ea8101-d17b-4394-bab5-2fe5ade7971a")
+		(property "Reference" "#PWR0309"
+			(at 124.46 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,7 +4420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 219.71 0)
+			(at 124.46 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,41 +4434,41 @@
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0419")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 161.29 66.04 0)
+		(lib_id "power:+5V")
+		(at 365.76 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "29a34f5a-a4d7-43f7-91e8-a018888dc359")
-		(property "Reference" "R404"
-			(at 159.004 68.58 90)
+		(fields_autoplaced yes)
+		(uuid "280a3f42-f20c-4aa0-acea-cd36e04e2063")
+		(property "Reference" "#PWR0318"
+			(at 365.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "1k 5%"
-			(at 163.576 68.58 90)
+		(property "Value" "+5V"
+			(at 365.76 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 159.512 66.04 90)
+			(at 365.76 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,8 +4476,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 161.29 66.04 0)
+		(property "Datasheet" ""
+			(at 365.76 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,25 +4485,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 161.29 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 365.76 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "3542efbb-21bb-4335-90fe-541dcb172289")
 		)
 		(pin "1"
-			(uuid "ea03d2df-e3d6-45b6-b424-a6838cfb4d69")
+			(uuid "ca4c34a3-624e-4d30-9d2d-e62e7bc83a9d")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R404")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -6527,7 +4508,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 210.82 0)
+		(at 85.09 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6535,8 +4516,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a62f665-855a-4f48-9c03-9f0526370978")
-		(property "Reference" "C402"
-			(at 88.9 209.5499 0)
+		(property "Reference" "C303"
+			(at 88.9 214.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +4526,7 @@
 			)
 		)
 		(property "Value" "1uF 50V"
-			(at 88.9 212.0899 0)
+			(at 88.9 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6554,7 +4535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.0552 214.63 0)
+			(at 86.0552 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +4544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 210.82 0)
+			(at 85.09 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +4553,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 85.09 210.82 0)
+			(at 85.09 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,7 +4570,7 @@
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "C402")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -6597,7 +4578,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 139.7 0)
+		(at 88.9 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6605,8 +4586,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e282b33-1d22-4d64-9e29-372e9d1fd6b2")
-		(property "Reference" "R437"
-			(at 95.25 138.4299 0)
+		(property "Reference" "R301"
+			(at 91.44 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,8 +4595,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 95.25 140.9699 0)
+		(property "Value" "0E 5%"
+			(at 91.44 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,7 +4605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.932 139.7 90)
+			(at 87.122 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6633,7 +4614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 139.7 0)
+			(at 88.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +4623,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 139.7 0)
+			(at 88.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6659,7 +4640,256 @@
 		(instances
 			(project ""
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R437")
+					(reference "R301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EAST1410RGBW02:EAST1410RGBW02")
+		(at 187.96 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fb59e04-778a-4c25-84b1-da18f66f0725")
+		(property "Reference" "U303"
+			(at 194.564 74.676 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EAST1410RGBW02"
+			(at 176.276 78.994 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EAST1410RGBW02"
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3d6f4993-367e-4d7a-83b1-9a9178bab70a")
+		)
+		(pin "4"
+			(uuid "e0a54475-49a1-48f1-9718-5bebb9179143")
+		)
+		(pin "3"
+			(uuid "9ab22d41-d5b7-4e34-8292-29c94d161a67")
+		)
+		(pin "2"
+			(uuid "d9e00b40-fe18-43eb-83c8-f6ad3fc419f3")
+		)
+		(pin "1"
+			(uuid "357f6743-c9ce-4356-8a29-4cfa6366f9a9")
+		)
+		(pin "5"
+			(uuid "750f7ad3-9da8-431a-a4a3-8ed504e1f700")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "U303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EAST1410RGBW02:EAST1410RGBW02")
+		(at 289.56 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fd7eb70-c795-4ffa-85c3-f2d5fafd3ffb")
+		(property "Reference" "U307"
+			(at 296.164 74.676 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EAST1410RGBW02"
+			(at 277.876 78.994 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+			(at 289.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EAST1410RGBW02"
+			(at 289.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "d31831ed-1f4e-4fe2-8d92-d337998f37f8")
+		)
+		(pin "4"
+			(uuid "835a5c3e-9db4-405e-b6d3-360439f6e73e")
+		)
+		(pin "3"
+			(uuid "e033e5b7-823a-4dd7-bbc2-f8385a7d3d3b")
+		)
+		(pin "2"
+			(uuid "406378e1-ea21-444c-9225-401f2a07aba3")
+		)
+		(pin "1"
+			(uuid "23c05b84-f702-48f7-bde4-481c1715c6bf")
+		)
+		(pin "5"
+			(uuid "02eb3479-b2e6-4e08-a803-d8b8f5d87a86")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "U307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EAST1410RGBW02:EAST1410RGBW02")
+		(at 365.76 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3157819a-27cc-4066-b1ec-1c16428c0f1d")
+		(property "Reference" "U310"
+			(at 372.364 74.676 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EAST1410RGBW02"
+			(at 354.076 78.994 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+			(at 365.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EAST1410RGBW02"
+			(at 365.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "620593ac-0853-4288-accb-4287491dcf67")
+		)
+		(pin "4"
+			(uuid "1fdfcecb-ab69-49ee-996d-223ba0b90f72")
+		)
+		(pin "3"
+			(uuid "eb517bb7-6f17-497b-b980-9f378f0678db")
+		)
+		(pin "2"
+			(uuid "c480b2c2-a0fe-4a1f-bed8-f508b02274fc")
+		)
+		(pin "1"
+			(uuid "5b009fcd-2db4-43e3-a0f6-da7dda16817f")
+		)
+		(pin "5"
+			(uuid "59610e7b-f73b-41e6-b1e3-ac8c219fad46")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "U310")
 					(unit 1)
 				)
 			)
@@ -6667,16 +4897,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 290.83 53.34 0)
+		(at 26.67 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e31160e-40c6-4e9e-86ff-13d1cb5c00af")
-		(property "Reference" "#PWR0411"
-			(at 290.83 57.15 0)
+		(uuid "385a0b92-8787-4b26-961f-86777bc370b5")
+		(property "Reference" "#PWR0301"
+			(at 26.67 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +4915,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 290.83 48.26 0)
+			(at 26.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6693,7 +4923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290.83 53.34 0)
+			(at 26.67 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,7 +4932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 53.34 0)
+			(at 26.67 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +4941,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 290.83 53.34 0)
+			(at 26.67 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,12 +4950,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "79b69234-d937-434c-b528-129a180c8be2")
+			(uuid "0a4509cd-d298-4cc0-b2a9-8b34503157b6")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0411")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -6733,16 +4963,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 243.84 69.85 0)
+		(at 238.76 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3d1eee70-cce4-41f3-87ec-8b624c736eb2")
-		(property "Reference" "#PWR0405"
-			(at 243.84 73.66 0)
+		(uuid "3a4e9c42-d02a-4037-909b-b397fee558e3")
+		(property "Reference" "#PWR0313"
+			(at 238.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +4981,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 243.84 64.77 0)
+			(at 238.76 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +4989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 69.85 0)
+			(at 238.76 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +4998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 69.85 0)
+			(at 238.76 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +5007,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 243.84 69.85 0)
+			(at 238.76 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,12 +5016,161 @@
 			)
 		)
 		(pin "1"
-			(uuid "82712b56-37da-4bbf-9776-a31b2a4c82cc")
+			(uuid "65fb0b4f-e803-48cb-a0bc-8b453f65fdc8")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0405")
+					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 289.56 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d7271a5-a4ae-47f2-8cd2-a2de29aa127c")
+		(property "Reference" "#PWR0315"
+			(at 289.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 289.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 289.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c9cf08c-b051-4f34-92a3-af726457f524")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "#PWR0315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EAST1410RGBW02:EAST1410RGBW02")
+		(at 213.36 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dea2177-6d22-4911-adbf-bb5041a56353")
+		(property "Reference" "U304"
+			(at 219.964 74.676 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EAST1410RGBW02"
+			(at 201.676 78.994 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+			(at 213.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EAST1410RGBW02"
+			(at 213.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "09a149c1-82d7-40d5-807c-930399a430da")
+		)
+		(pin "4"
+			(uuid "1bb457a9-6661-41e1-88a7-998d85651432")
+		)
+		(pin "3"
+			(uuid "5b8f7732-1f1d-4bdb-b812-016d7da3def4")
+		)
+		(pin "2"
+			(uuid "6e20e7d3-70a6-40ca-aaec-cb279506774e")
+		)
+		(pin "1"
+			(uuid "21446441-f505-4ce8-9662-e4409c754621")
+		)
+		(pin "5"
+			(uuid "804c0698-c1c6-4edf-aed9-38f38ae578ae")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "U304")
 					(unit 1)
 				)
 			)
@@ -6799,7 +5178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 143.51 0)
+		(at 88.9 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6807,8 +5186,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "409e1350-d4fe-4049-897a-ee1a0e60d579")
-		(property "Reference" "#PWR0413"
-			(at 92.71 149.86 0)
+		(property "Reference" "#PWR0305"
+			(at 88.9 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6817,7 +5196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 148.59 0)
+			(at 88.9 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +5204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 143.51 0)
+			(at 88.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +5213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 143.51 0)
+			(at 88.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +5222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 143.51 0)
+			(at 88.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,296 +5236,7 @@
 		(instances
 			(project ""
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0413")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 259.08 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41a6e26d-4e84-446d-86e0-7d89c9fc3dbb")
-		(property "Reference" "R429"
-			(at 256.794 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 261.366 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.302 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 259.08 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "23d0f775-765f-4eda-8465-58367482cf17")
-		)
-		(pin "1"
-			(uuid "8e330aac-e727-4934-9b33-5ee718f0f1c4")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R429")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48c30406-e70d-4413-b729-ee15ff0ec10c")
-		(property "Reference" "R424"
-			(at 202.184 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 206.756 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 202.692 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8454ed3-6a7d-42bc-8f62-b778ca451c6b")
-		)
-		(pin "1"
-			(uuid "20ca95ed-1cde-4c9b-883b-1ef8637150f6")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R424")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 290.83 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aadc2c1-0715-415a-92b5-d3aa803c6738")
-		(property "Reference" "D411"
-			(at 300.99 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 300.99 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 281.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 289.56 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 290.83 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cbc7704a-7c9c-40bc-96b6-6c02b4d6c8e8")
-		)
-		(pin "1"
-			(uuid "d6cf9da6-c150-4e63-b8dc-a032304e676b")
-		)
-		(pin "6"
-			(uuid "505dcbd8-b2d7-4a42-8f8d-beacca81ca51")
-		)
-		(pin "5"
-			(uuid "17ac383d-3131-44f1-bb2c-2ebefb32e4bf")
-		)
-		(pin "3"
-			(uuid "7f78694d-6a0f-495c-9030-c8673f0ac5a7")
-		)
-		(pin "4"
-			(uuid "1ea8eb18-352b-4be9-adee-0762d75fede3")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 243.84 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "538531fa-3349-4c17-9a0d-03c360673343")
-		(property "Reference" "R414"
-			(at 241.554 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 246.126 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.062 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 243.84 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fc66aa49-8472-4b91-8ada-aab2fdb08f60")
-		)
-		(pin "1"
-			(uuid "ce4f0063-696e-479c-82cf-a7f2a4e334db")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R414")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -7154,16 +5244,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 322.58 53.34 0)
+		(at 124.46 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "55091fea-92d7-44ff-a9de-259369a24d01")
-		(property "Reference" "#PWR0412"
-			(at 322.58 57.15 0)
+		(uuid "58dee2cc-d966-4244-967e-aec61bcb5d49")
+		(property "Reference" "#PWR0308"
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +5262,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 322.58 48.26 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +5270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 53.34 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +5279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 53.34 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +5288,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 322.58 53.34 0)
+			(at 124.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,246 +5297,112 @@
 			)
 		)
 		(pin "1"
-			(uuid "9cdc5a47-0c4d-48b3-9598-36e35c49ba70")
+			(uuid "664e9cba-276a-4016-9a87-70eb91cce9af")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0412")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 213.36 69.85 0)
+		(lib_id "EAST1410RGBW02:EAST1410RGBW02")
+		(at 238.76 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "551a379f-22fa-4bc7-973b-b2fa3d1a0eaf")
-		(property "Reference" "#PWR0404"
-			(at 213.36 73.66 0)
+		(uuid "648c751a-cbb5-4bfb-8e81-dacb6f9245f1")
+		(property "Reference" "U305"
+			(at 245.364 74.676 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 213.36 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4aa04f42-fa26-4f10-9f5f-6a6b5c472676")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 228.6 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "575a8fce-f4fa-43b5-bc57-193a5528c4a8")
-		(property "Reference" "D409"
-			(at 238.76 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "SMLVN6RGB"
-			(at 238.76 115.5699 90)
+		(property "Value" "EAST1410RGBW02"
+			(at 227.076 78.994 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 219.71 114.3 0)
+		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+			(at 238.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EAST1410RGBW02"
+			(at 238.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 227.33 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 228.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ad8ac72-a202-4444-b538-56a7905b15ae")
-		)
-		(pin "1"
-			(uuid "239c1c4d-8550-4888-a38a-341ed12809cb")
 		)
 		(pin "6"
-			(uuid "1fff2f29-f337-476c-850e-a7a4a78053e4")
-		)
-		(pin "5"
-			(uuid "8a53fe4e-ba2c-48bf-8a37-394927e83520")
-		)
-		(pin "3"
-			(uuid "e3ebadcc-3d0c-4ae2-b4af-cb132e289a85")
+			(uuid "5f8d4646-6196-4c4b-9bc0-f88ea45bbb4d")
 		)
 		(pin "4"
-			(uuid "053d01cc-e71a-4a8b-803a-72884b814115")
+			(uuid "e1b17241-fcf9-41d4-89ab-896021e3f430")
 		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 250.19 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5760c6df-c10f-43fa-86dd-2171e7b066c9")
-		(property "Reference" "R415"
-			(at 247.904 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 252.476 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.412 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 250.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "cc5d28eb-39e7-49b2-92eb-26e28858843d")
 		)
 		(pin "2"
-			(uuid "cdd9e7ba-9909-4fc0-b7b2-8186574e8e5b")
+			(uuid "0bb50d08-415b-4777-a65d-5c14a29bd4a2")
 		)
 		(pin "1"
-			(uuid "a7b0237c-d2e4-4921-8d42-1e1ef684e484")
+			(uuid "fe2c27e6-7368-4d83-a858-24d229a918da")
+		)
+		(pin "5"
+			(uuid "6813a036-3521-4a25-a22f-f1e5fccef580")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R415")
+					(reference "U305")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 228.6 53.34 0)
+		(lib_id "power:GND")
+		(at 39.37 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "681fb0a3-e141-477b-bb2d-b244557a54c0")
-		(property "Reference" "#PWR0409"
-			(at 228.6 57.15 0)
+		(uuid "72617df7-8d56-4ed8-b100-0815cf799f1e")
+		(property "Reference" "#PWR0303"
+			(at 39.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,8 +5410,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 228.6 48.26 0)
+		(property "Value" "GND"
+			(at 39.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +5419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 53.34 0)
+			(at 39.37 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,7 +5428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 53.34 0)
+			(at 39.37 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,8 +5436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,942 +5446,261 @@
 			)
 		)
 		(pin "1"
-			(uuid "29b864cc-922f-41e4-b071-ebab0f9a19dd")
+			(uuid "c2c175f0-e6f1-44b3-b3c3-29fc4e4e36f1")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0409")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 322.58 114.3 270)
+		(lib_id "EAST1410RGBW02:EAST1410RGBW02")
+		(at 340.36 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6838e5af-b51d-4290-a6f9-a344acf068a2")
-		(property "Reference" "D412"
-			(at 332.74 113.0299 90)
+		(uuid "75a75594-6dad-4dc8-a596-c9e091316929")
+		(property "Reference" "U309"
+			(at 346.964 74.676 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "SMLVN6RGB"
-			(at 332.74 115.5699 90)
+		(property "Value" "EAST1410RGBW02"
+			(at 328.676 78.994 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 313.69 114.3 0)
+		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+			(at 340.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EAST1410RGBW02"
+			(at 340.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 321.31 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 322.58 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "16d79e0b-f562-4b01-8ede-650dd3d5ccc5")
-		)
-		(pin "1"
-			(uuid "b1d6aed8-ce99-44f1-8a57-e88811a1488c")
 		)
 		(pin "6"
-			(uuid "91a4fc56-b38b-4b87-8d9a-5ebd92f77cdc")
-		)
-		(pin "5"
-			(uuid "1f6aa51c-d216-4a1b-936e-18f5a73a8e19")
-		)
-		(pin "3"
-			(uuid "6077909e-3676-4927-9ed2-90d8163d7e1c")
+			(uuid "41587b6f-b359-4453-8fbb-6f2664688f7c")
 		)
 		(pin "4"
-			(uuid "64c24079-3bcc-434c-9fce-e500e98f2acc")
+			(uuid "1e828b6b-9cac-47cf-80b6-13d62f9ad6d9")
+		)
+		(pin "3"
+			(uuid "f75bcaff-8437-4bf3-8202-b9f6dbb99609")
+		)
+		(pin "2"
+			(uuid "73d39194-6736-459e-95b5-50587dc3eb1c")
+		)
+		(pin "1"
+			(uuid "2db0ac61-02ac-4a7a-9fcc-5f10f9c1c860")
+		)
+		(pin "5"
+			(uuid "0c23812d-4609-46ed-8d6e-687322888892")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D412")
+					(reference "U309")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 146.05 82.55 0)
+		(lib_id "EAST1410RGBW02:EAST1410RGBW02")
+		(at 314.96 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6c35824a-64ae-472d-9d6d-3e837585aad8")
-		(property "Reference" "R401"
-			(at 143.764 85.09 90)
+		(uuid "77e0008d-4d85-4794-af28-e3af677b686a")
+		(property "Reference" "U308"
+			(at 321.564 74.676 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "1k 5%"
-			(at 148.336 85.09 90)
+		(property "Value" "EAST1410RGBW02"
+			(at 303.276 78.994 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.272 82.55 90)
+		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+			(at 314.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EAST1410RGBW02"
+			(at 314.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 146.05 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "09bab941-8e04-4165-8d8c-57337a293196")
-		)
-		(pin "1"
-			(uuid "7d71b450-2246-4ff0-8fd0-102662b28c51")
-		)
-		(instances
-			(project ""
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 322.58 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "701181cd-535a-43a1-921e-8c60237612d8")
-		(property "Reference" "R435"
-			(at 320.294 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 324.866 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.802 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 322.58 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 322.58 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e6387652-88c1-4289-8236-cd1b5bb9ab90")
-		)
-		(pin "1"
-			(uuid "668f6e4d-eb35-4781-a54d-5047679a0ed7")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R435")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 176.53 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72ce9b52-3744-4766-8cbf-c5069d1cb4d0")
-		(property "Reference" "R407"
-			(at 174.244 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 178.816 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 174.752 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 176.53 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dc892c63-5b40-4c7c-9e6d-4466f1c4fb13")
-		)
-		(pin "1"
-			(uuid "441df865-13c7-4008-96c7-48f3b6aabfe1")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 173.99 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73e3ba5d-d1c4-4d79-a4a7-16dc43e58df6")
-		(property "Reference" "R406"
-			(at 171.704 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 176.276 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.212 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 173.99 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6751fc78-4ba3-4133-b52d-3221d58fc0c0")
-		)
-		(pin "1"
-			(uuid "50336f88-7129-423f-856a-1d67bf035493")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 275.59 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "776a0db0-0dbe-4d78-b695-940dcc39b3a2")
-		(property "Reference" "D405"
-			(at 285.75 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 285.75 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 266.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 274.32 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 275.59 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aa6aa750-e121-40ec-a818-69ad56eee225")
-		)
-		(pin "1"
-			(uuid "5c4cab4c-04ab-4e6c-9f2b-6bb854eefb62")
 		)
 		(pin "6"
-			(uuid "38d67497-28ae-4801-8125-6c96674f5361")
-		)
-		(pin "5"
-			(uuid "5fb5d59d-9022-43e6-93cc-3cd2939a1841")
-		)
-		(pin "3"
-			(uuid "f00dbae8-0544-4df2-aff6-e214d34fed2f")
+			(uuid "03ae4754-1303-4156-b001-8e7aaf058915")
 		)
 		(pin "4"
-			(uuid "5fda34ae-97b1-4ac8-a753-05c6e5a91366")
+			(uuid "39d2fe3b-8959-4ca1-bc48-21c6efd61dc9")
+		)
+		(pin "3"
+			(uuid "9d5c64d5-8683-48a4-bb27-c44f76f7dee4")
+		)
+		(pin "2"
+			(uuid "8523c56d-51d4-4923-8cad-484da36ad9da")
+		)
+		(pin "1"
+			(uuid "d45841bf-8591-48b3-8f77-55814cbcd195")
+		)
+		(pin "5"
+			(uuid "ab3a18d2-0201-4595-8cfe-e508dc1bbd94")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D405")
+					(reference "U308")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 198.12 114.3 270)
+		(lib_id "EAST1410RGBW02:EAST1410RGBW02")
+		(at 264.16 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81260919-14b6-4c19-a643-47b2ef146e2f")
-		(property "Reference" "D408"
-			(at 208.28 113.0299 90)
+		(uuid "889fa973-2c41-4074-9787-dc38b6ca8303")
+		(property "Reference" "U306"
+			(at 270.764 74.676 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "SMLVN6RGB"
-			(at 208.28 115.5699 90)
+		(property "Value" "EAST1410RGBW02"
+			(at 252.476 78.994 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 189.23 114.3 0)
+		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+			(at 264.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "EAST1410RGBW02"
+			(at 264.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 196.85 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 198.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ecf9b2ee-46a4-450f-9bee-3fc33bae14f5")
-		)
-		(pin "1"
-			(uuid "3fc17ed2-7f1a-4ed4-bc77-f45bd626dffe")
 		)
 		(pin "6"
-			(uuid "a8bd42ca-106c-43cd-a1b5-d3c8a44e9024")
-		)
-		(pin "5"
-			(uuid "c0fb51d0-0834-4bb7-979b-c276e82015f7")
-		)
-		(pin "3"
-			(uuid "32ffd815-97b9-4a68-b9bf-32372b33e859")
+			(uuid "5e532200-3e65-4c0a-8bc8-5b98f5532448")
 		)
 		(pin "4"
-			(uuid "78dc3a54-0956-4163-83a4-a7c55b88bad7")
+			(uuid "a61f9a6f-f88d-4e1e-9aff-6c9b503081f7")
 		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D408")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 152.4 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81421355-ebaa-4611-b9aa-6362c88677d6")
-		(property "Reference" "#PWR0401"
-			(at 152.4 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 152.4 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 152.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28a25707-5da9-48a5-b219-ad5aa3ffcac4")
-		)
-		(instances
-			(project ""
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 275.59 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "821624fb-6a71-43e4-a538-4bcd12bd3678")
-		(property "Reference" "R417"
-			(at 273.304 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 277.876 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.812 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 275.59 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "4f1ee66b-b20d-49c4-8f95-ddc496f04871")
 		)
 		(pin "2"
-			(uuid "7fcb0d71-ab4f-485d-ab15-c8da60f22ef8")
+			(uuid "500de36e-7644-41da-a3d5-4183c5677d64")
 		)
 		(pin "1"
-			(uuid "25af0a3c-4b8f-4481-8ca8-3cf43f4061b1")
+			(uuid "b26e19cf-ec94-432b-a391-e98942c9b8b7")
+		)
+		(pin "5"
+			(uuid "bc962519-cc65-4532-b99c-40725484e778")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R417")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 269.24 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83252b33-bcac-42d6-8d6a-4624816055f0")
-		(property "Reference" "R416"
-			(at 266.954 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 271.526 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.462 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 269.24 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a91bfb70-cb9a-4c00-9568-a86f68fdc5a1")
-		)
-		(pin "1"
-			(uuid "290fdee8-305f-48e4-a7eb-b82097de0e19")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R416")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 307.34 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e074350-5d4d-4687-bba8-167978497f74")
-		(property "Reference" "R420"
-			(at 305.054 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 309.626 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 305.562 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 307.34 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 307.34 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9bd5d68-907f-4ccc-b8c1-de136c8ebe87")
-		)
-		(pin "1"
-			(uuid "d8496b68-a070-4839-851c-f1b042404e96")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R420")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 316.23 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e58e50a-ed82-4d6d-8b59-4d774e8a2e2d")
-		(property "Reference" "R434"
-			(at 313.944 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 318.516 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.452 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 316.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 316.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ac3ccf4-bd81-4b59-9e08-890ea6590abb")
-		)
-		(pin "1"
-			(uuid "3e683b0a-cd34-42af-997c-1bded34d5fb6")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R434")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 275.59 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fac9f84-3ffc-46df-b31c-a2af13b65684")
-		(property "Reference" "#PWR0406"
-			(at 275.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 275.59 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 275.59 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d2a8829-e7a2-498f-9d7c-393d1c8e83e7")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0406")
+					(reference "U306")
 					(unit 1)
 				)
 			)
@@ -8441,7 +5716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961e433c-a1c0-4f2c-aa70-78b5d7c464b4")
-		(property "Reference" "U401"
+		(property "Reference" "U301"
 			(at 126.6541 109.22 0)
 			(effects
 				(font
@@ -8630,23 +5905,23 @@
 		(instances
 			(project ""
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "U401")
+					(reference "U301")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 328.93 66.04 0)
+		(lib_id "Device:C")
+		(at 26.67 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9664648f-79a4-4d1b-871c-2019c63f2ab9")
-		(property "Reference" "R436"
-			(at 326.644 68.58 90)
+		(uuid "966ce1eb-833a-4394-931e-40c1cd5e6f10")
+		(property "Reference" "C301"
+			(at 23.114 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,8 +5929,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k 5%"
-			(at 331.216 68.58 90)
+		(property "Value" "4.7uF 25V"
+			(at 30.48 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +5939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.152 66.04 90)
+			(at 27.6352 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +5948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 328.93 66.04 0)
+			(at 26.67 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,77 +5956,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 328.93 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b9646b2d-3a54-40b2-9e42-904c74f88081")
-		)
-		(pin "1"
-			(uuid "987f1b4c-048c-4040-8689-c428b2bdc910")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R436")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 198.12 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "969e8c0b-15ee-422b-9eac-4b74186d0ea4")
-		(property "Reference" "R423"
-			(at 195.834 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 200.406 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.342 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 198.12 66.04 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 26.67 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,291 +5966,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d77ba117-4597-4319-9dd0-b12f3787743a")
+			(uuid "6cc79252-fe57-488c-a57c-835b6f558d9f")
 		)
 		(pin "1"
-			(uuid "85ace09f-391b-4423-acdc-a72dd1ec9b1c")
+			(uuid "7ff700e9-b385-43ca-9e82-392330936d67")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R423")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 252.73 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a2fe64e-d175-4333-b97c-34f4993f7d3b")
-		(property "Reference" "R428"
-			(at 250.444 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 255.016 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.952 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 252.73 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3142d8ad-ac52-426b-af7c-88784483c8f8")
-		)
-		(pin "1"
-			(uuid "2436f82c-a794-4f0b-a5be-8008bb0cc501")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R428")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 281.94 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b64f1c5-a663-40b7-9e26-0aa2961cd6ea")
-		(property "Reference" "R418"
-			(at 279.654 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 284.226 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.162 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 281.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 281.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a80da6cb-8be3-4fd1-ab37-eb9307f48723")
-		)
-		(pin "1"
-			(uuid "9fc0df0b-7d7f-4492-bde8-d3bd0d2d9d59")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R418")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 265.43 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1796f32-5660-4c57-a56f-703093bc551d")
-		(property "Reference" "R430"
-			(at 263.144 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 267.716 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 263.652 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 265.43 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "440b4ef6-53a6-479e-a366-e20e513858ec")
-		)
-		(pin "1"
-			(uuid "bf94fe5b-2829-4830-8ac9-096224d594f0")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R430")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 228.6 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a344262b-0c3d-4fa1-bf2d-10ddb774543a")
-		(property "Reference" "R426"
-			(at 226.314 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 230.886 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.822 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 228.6 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "381b7896-172d-40fe-828e-072773ada799")
-		)
-		(pin "1"
-			(uuid "f3d641ac-334c-4f9d-8e33-14b043c6e2f6")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R426")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -9052,16 +5982,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 182.88 69.85 0)
+		(at 162.56 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a39b2260-841e-41ec-9a68-42ad9a21ca04")
-		(property "Reference" "#PWR0403"
-			(at 182.88 73.66 0)
+		(uuid "ac24d3de-746a-4170-8dfd-06e3b2cd88ff")
+		(property "Reference" "#PWR0310"
+			(at 162.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +6000,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 182.88 64.77 0)
+			(at 162.56 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +6008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 69.85 0)
+			(at 162.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,7 +6017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 69.85 0)
+			(at 162.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +6026,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 182.88 69.85 0)
+			(at 162.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9105,47 +6035,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb390319-b23c-4b18-84bd-829564de21e7")
+			(uuid "0230fa62-674a-42ec-bd41-37796c2dc2e6")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0403")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 167.64 114.3 270)
+		(lib_id "power:GND")
+		(at 26.67 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4e2fd78-dffd-4a34-9707-7b505a19f43e")
-		(property "Reference" "D407"
-			(at 177.8 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 177.8 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 158.75 114.3 0)
+		(uuid "baae9aa2-04dd-4201-b7c6-5de3089a2d3d")
+		(property "Reference" "#PWR0302"
+			(at 26.67 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,80 +6065,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 166.37 114.3 0)
+		(property "Value" "GND"
+			(at 26.67 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 167.64 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "78c3f48c-c31c-43c1-92e9-606e7f0c8132")
-		)
-		(pin "1"
-			(uuid "7c631a38-038a-4602-bdad-a86d9f558f9e")
-		)
-		(pin "6"
-			(uuid "4a14c157-9b1d-4f0d-8dd4-b9d1daa753a1")
-		)
-		(pin "5"
-			(uuid "b3737753-32d3-464d-b3c5-c59b3782d589")
-		)
-		(pin "3"
-			(uuid "149757b2-a7b8-496b-8dbf-c7cffdb3644d")
-		)
-		(pin "4"
-			(uuid "d2196860-4df6-4a74-abb7-0ea9d01d93fc")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 297.18 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b195d66e-8d17-4552-84d7-efa9d2fbcd11")
-		(property "Reference" "R433"
-			(at 294.894 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 299.466 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 295.402 66.04 90)
+			(at 26.67 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9234,8 +6082,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 297.18 66.04 0)
+		(property "Datasheet" ""
+			(at 26.67 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,176 +6091,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 297.18 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "0de425ae-0995-4dd9-bd84-67e815939c94")
 		)
 		(pin "1"
-			(uuid "ffa9344a-07ae-49d1-9176-3158a9c37f2c")
+			(uuid "a74325bc-dcdd-47fe-88f7-a31b01a131aa")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R433")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 189.23 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2fef8bb-9b31-42ae-aa25-207ce4460379")
-		(property "Reference" "R409"
-			(at 186.944 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 191.516 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.452 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 189.23 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0361f1f8-73cf-47d1-9715-bc568a78d102")
-		)
-		(pin "1"
-			(uuid "0127bfa2-169d-4fbe-bd15-eef44355d673")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 307.34 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4960c4c-0831-43d6-b10c-056c71896015")
-		(property "Reference" "D406"
-			(at 317.5 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 317.5 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 298.45 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 306.07 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 307.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "97d997eb-522e-46b9-a121-802614b30fcb")
-		)
-		(pin "1"
-			(uuid "33244d65-f069-419d-8dfd-deaeaaec7b77")
-		)
-		(pin "6"
-			(uuid "850c99b1-3e56-4b86-a792-315b27108e52")
-		)
-		(pin "5"
-			(uuid "58ca1830-9685-4c2a-91a6-25955ba1fb6f")
-		)
-		(pin "3"
-			(uuid "88551641-b0e2-4c80-bba3-142c9b9c1626")
-		)
-		(pin "4"
-			(uuid "f6908abf-c53a-4429-9286-32144196e935")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D406")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -9420,16 +6114,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 167.64 53.34 0)
+		(at 187.96 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5d512f6-0093-4482-bcf1-a91d530ff5cc")
-		(property "Reference" "#PWR0402"
-			(at 167.64 57.15 0)
+		(uuid "c5beec25-5e6b-41ad-89e1-13c32ac55158")
+		(property "Reference" "#PWR0311"
+			(at 187.96 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +6132,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 167.64 48.26 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +6140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 53.34 0)
+			(at 187.96 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +6149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 53.34 0)
+			(at 187.96 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +6158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 167.64 53.34 0)
+			(at 187.96 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,301 +6167,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b5cc47d-e226-4ec8-80aa-89c316c415d7")
+			(uuid "441cb7fa-ef2d-4dd4-8243-69864f1fe76d")
 		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 234.95 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b72be557-2009-455d-98f5-ddc9686761b4")
-		(property "Reference" "R427"
-			(at 232.664 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 237.236 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.172 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 234.95 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "894f42cd-dc7a-46bc-9b4a-ea740bd8c4fb")
-		)
-		(pin "1"
-			(uuid "5deab91d-7e4d-4b77-9b5c-05da2d44b026")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R427")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 213.36 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0c4929f-859c-4957-9d83-1e861bc9f306")
-		(property "Reference" "R411"
-			(at 211.074 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 215.646 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 211.582 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 213.36 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b0752e1-05a7-4bd1-901b-e99038167aee")
-		)
-		(pin "1"
-			(uuid "c27d3024-6a1f-441e-9b53-f84b34548b25")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 191.77 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c12821e2-724f-4080-a218-17873c0cf9df")
-		(property "Reference" "R422"
-			(at 189.484 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 194.056 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.992 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 191.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e6e7a176-263b-4dbd-8165-51e763b8377e")
-		)
-		(pin "1"
-			(uuid "bea04e1e-0674-4ee8-a5c2-bd739b96b948")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R422")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 213.36 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3865560-e2fd-4f17-907e-05f02e6265a8")
-		(property "Reference" "D403"
-			(at 223.52 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 223.52 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 204.47 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 212.09 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 213.36 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa765276-cacb-49a4-89e1-10c4c398d65b")
-		)
-		(pin "1"
-			(uuid "5db33f52-acb8-4a8f-a4ee-387ea083a42f")
-		)
-		(pin "6"
-			(uuid "10189c3a-7c47-4afe-87a3-cbcdc3da6384")
-		)
-		(pin "5"
-			(uuid "95541de2-50fe-4538-8313-5427ff3f14a1")
-		)
-		(pin "3"
-			(uuid "439002d9-2fcb-4821-a03c-9818af59c6dc")
-		)
-		(pin "4"
-			(uuid "b14f1fca-9bcd-49c2-a4ea-f4d75609ba68")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D403")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -9775,16 +6180,15 @@
 	)
 	(symbol
 		(lib_id "EAST1410RGBW02:EAST1410RGBW02")
-		(at 97.79 59.69 270)
+		(at 162.56 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c81bbe39-c580-4495-b55d-8c430498c379")
-		(property "Reference" "U1"
-			(at 109.22 78.7399 90)
+		(property "Reference" "U302"
+			(at 169.164 74.676 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9793,7 +6197,7 @@
 			)
 		)
 		(property "Value" "EAST1410RGBW02"
-			(at 109.22 81.2799 90)
+			(at 150.876 78.994 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9802,7 +6206,7 @@
 			)
 		)
 		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
-			(at 97.79 59.69 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +6216,7 @@
 			)
 		)
 		(property "Datasheet" "EAST1410RGBW02"
-			(at 97.79 59.69 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9822,7 +6226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 59.69 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,7 +6255,7 @@
 		(instances
 			(project ""
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "U1")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -9859,7 +6263,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 143.51 0)
+		(at 101.6 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9867,8 +6271,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8bf2da8-81c9-41b6-9739-997279badd12")
-		(property "Reference" "#PWR0414"
-			(at 101.6 149.86 0)
+		(property "Reference" "#PWR0306"
+			(at 101.6 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9877,7 +6281,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 148.59 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9885,7 +6289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 143.51 0)
+			(at 101.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +6298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 143.51 0)
+			(at 101.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +6307,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 143.51 0)
+			(at 101.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,428 +6321,7 @@
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0414")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 222.25 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cabaaee6-ab91-4c92-95dc-93b874999bd9")
-		(property "Reference" "R425"
-			(at 219.964 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 224.536 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.472 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 222.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a6956d59-784e-4e10-ba7f-ee4b6b831923")
-		)
-		(pin "1"
-			(uuid "db13dac7-e364-4da8-86c8-481547c79ca5")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R425")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 307.34 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb90e874-2b47-47b8-8dd7-42200c0a7847")
-		(property "Reference" "#PWR0407"
-			(at 307.34 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 307.34 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 307.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc26d0cc-db4d-4b71-9d73-5f9102cd1f00")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 198.12 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd5f306c-1c69-47c2-8e95-909dbe309b05")
-		(property "Reference" "#PWR0408"
-			(at 198.12 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 198.12 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 198.12 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d83f514-267b-42f5-aa49-a907965727d9")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0408")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d11579b2-bdfc-4c71-aa10-f58da5403eec")
-		(property "Reference" "R403"
-			(at 156.464 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 161.036 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.972 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e42f7d4-07d9-49b5-9cc7-312f8115ba82")
-		)
-		(pin "1"
-			(uuid "b92809d1-c2d5-4009-89b5-07217fda875c")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 290.83 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4ff687f-63f2-468a-ac90-526c6ecc1053")
-		(property "Reference" "R432"
-			(at 288.544 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 293.116 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.052 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 290.83 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 290.83 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e08dd79d-50c3-4153-82a1-98275f22567b")
-		)
-		(pin "1"
-			(uuid "2ad802fd-8450-4742-a34d-2ba5d4bddf3e")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R432")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 259.08 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc7f15cc-ea4d-4f8e-bc57-ca00b870b6d6")
-		(property "Reference" "D410"
-			(at 269.24 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 269.24 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 250.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 257.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 259.08 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ce5036cd-5996-4ac8-8b81-c58f09e0b687")
-		)
-		(pin "1"
-			(uuid "54375e01-0282-4ead-acd3-17d69e5048ed")
-		)
-		(pin "6"
-			(uuid "94b16f9f-85bc-441d-ad2e-c311763529e2")
-		)
-		(pin "5"
-			(uuid "9930bb7c-7942-459a-8839-83e4b0efa021")
-		)
-		(pin "3"
-			(uuid "3447f0c7-10a3-4a6b-b21e-e463968eadd5")
-		)
-		(pin "4"
-			(uuid "83fb86f0-d198-4c0c-803b-5a1809e639f0")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D410")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -10354,7 +6337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de97ebb8-8709-44da-a151-95d041e163db")
-		(property "Reference" "R438"
+		(property "Reference" "R302"
 			(at 104.14 138.4299 0)
 			(effects
 				(font
@@ -10363,7 +6346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0E 5%"
 			(at 104.14 140.9699 0)
 			(effects
 				(font
@@ -10408,447 +6391,7 @@
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R438")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 182.88 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1863253-f943-4242-aa06-c6e29828f613")
-		(property "Reference" "R408"
-			(at 180.594 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 185.166 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.102 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 182.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6cdc413-dd2d-48aa-9796-d72479a5ef0e")
-		)
-		(pin "1"
-			(uuid "5f38ba90-c653-4295-b10e-dd862a88751f")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R408")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 243.84 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e470b514-6dfe-469c-859a-c8086b3f44eb")
-		(property "Reference" "D404"
-			(at 254 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 254 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 234.95 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 242.57 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 243.84 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "300b94c0-8e2c-4206-a65f-6e7e3a2209d1")
-		)
-		(pin "1"
-			(uuid "f78cb153-5d82-4088-bcd1-43b8cdf809c1")
-		)
-		(pin "6"
-			(uuid "cddd5459-0da0-443b-b6bb-f7f7f1bfa459")
-		)
-		(pin "5"
-			(uuid "9a8bbf51-e020-4350-834b-07a9856739fe")
-		)
-		(pin "3"
-			(uuid "25c68591-5d85-4358-94d7-6fda3141f40e")
-		)
-		(pin "4"
-			(uuid "db0c0eb4-922c-4b7d-bffd-f265aaf5fd80")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 152.4 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5fa2ebf-3052-4134-b250-d1c5de3ac875")
-		(property "Reference" "D401"
-			(at 162.56 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 162.56 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 143.51 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 151.13 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 152.4 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eca146d3-f6e2-4d7c-8fd2-5b9be4f02a84")
-		)
-		(pin "1"
-			(uuid "acd6cf1c-d036-4e59-95c6-4ad7a19c44e7")
-		)
-		(pin "6"
-			(uuid "b3b33474-cf36-4560-8480-ecc98e454a7c")
-		)
-		(pin "5"
-			(uuid "c03eff0a-28fe-46cd-8c10-d038bf86c1a2")
-		)
-		(pin "3"
-			(uuid "3991800c-d81f-4478-84ad-3ccb4568893f")
-		)
-		(pin "4"
-			(uuid "f08595b9-66e6-40dd-9ba0-36a909449991")
-		)
-		(instances
-			(project ""
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "D401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 300.99 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee3fc2e7-986a-4fa1-b664-69ec7090f4d2")
-		(property "Reference" "R419"
-			(at 298.704 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 303.276 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 299.212 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 300.99 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2961d5a7-5926-462f-8c33-da9da04bb01c")
-		)
-		(pin "1"
-			(uuid "20e849e3-de4a-4ebc-b9db-722de8066719")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R419")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 152.4 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2ef0772-4fbb-4476-aad0-9c34311ed6a5")
-		(property "Reference" "R402"
-			(at 150.114 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 154.686 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 150.622 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "271ba8b9-efcb-402c-8f8b-d0eb805b5cec")
-		)
-		(pin "1"
-			(uuid "23792e8d-e791-4c07-bfa9-b7088e44d13f")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 207.01 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6d00771-9e25-4e8a-ac9f-a5158d55d97d")
-		(property "Reference" "R410"
-			(at 204.724 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 209.296 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.232 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 207.01 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb11c9a9-11c3-4be9-bea6-c6ccb62ad471")
-		)
-		(pin "1"
-			(uuid "073b9190-351d-4124-98c4-7c6369f9200c")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R410")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -10856,7 +6399,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 219.71 0)
+		(at 101.6 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10864,8 +6407,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f86aa812-863d-45ae-96b1-017dd0dd2bbe")
-		(property "Reference" "#PWR0418"
-			(at 101.6 226.06 0)
+		(property "Reference" "#PWR0307"
+			(at 101.6 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10874,7 +6417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 224.79 0)
+			(at 101.6 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10882,7 +6425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 219.71 0)
+			(at 101.6 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +6434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 219.71 0)
+			(at 101.6 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10900,7 +6443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 219.71 0)
+			(at 101.6 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,76 +6457,7 @@
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "#PWR0418")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 313.69 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc4eb80e-2bd4-4972-804c-144b6568341e")
-		(property "Reference" "R421"
-			(at 311.404 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k 5%"
-			(at 315.976 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.912 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 313.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 313.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f53d0745-5808-465f-81b5-35f964988b4c")
-		)
-		(pin "1"
-			(uuid "b57cad5f-0002-481b-af56-17cde74f1ece")
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
-					(reference "R421")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)

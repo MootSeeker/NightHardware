@@ -28,3 +28,5 @@ fp-info-cache
 *.xml
 *.csv
 .DS_Store
+NightController/\#auto_saved_files\#
+NightController/~NightController.kicad_sch.lck

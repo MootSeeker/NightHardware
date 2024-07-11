@@ -12,6 +12,108 @@
 		(comment 2 "LED Board")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2707,10 +2809,46 @@
 		)
 	)
 	(junction
+		(at 91.44 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ea270c1-bed3-4cb5-931d-fcc3587fca14")
+	)
+	(junction
+		(at 91.44 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7004303c-2937-4c86-a725-f2f662c222d4")
+	)
+	(junction
+		(at 39.37 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b89a052-4e6e-425d-96e9-ace0d2d1bdb8")
+	)
+	(junction
+		(at 91.44 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1cfdba1-7b7a-4e34-b355-ea08ee781943")
+	)
+	(junction
 		(at 26.67 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a20c13ee-1d9f-405e-889f-a3b51412c60c")
+	)
+	(junction
+		(at 26.67 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beacd36d-0c9f-43de-9732-9311c39c852e")
+	)
+	(junction
+		(at 29.21 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfed2255-a32f-4ca1-8cf1-e7bf5b34b359")
 	)
 	(no_connect
 		(at 332.74 68.58)
@@ -2880,7 +3018,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 86.36) (xy 26.67 78.74)
+			(xy 26.67 86.36) (xy 26.67 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2937,6 +3075,16 @@
 			(type default)
 		)
 		(uuid "2ea76e42-a53b-46ee-b563-cccf6e984582")
+	)
+	(wire
+		(pts
+			(xy 26.67 83.82) (xy 26.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec3606b-cfb8-4283-b7b5-5efac4e1db7a")
 	)
 	(wire
 		(pts
@@ -3060,7 +3208,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 86.36) (xy 39.37 78.74)
+			(xy 39.37 86.36) (xy 39.37 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3097,6 +3245,16 @@
 			(type default)
 		)
 		(uuid "47f620ba-d614-415c-9fb6-008aac6f451f")
+	)
+	(wire
+		(pts
+			(xy 29.21 66.04) (xy 26.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c742ce-8b5f-4d3b-9cc1-13b7a6a2e869")
 	)
 	(wire
 		(pts
@@ -3240,6 +3398,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 83.82) (xy 39.37 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0be329-7d07-43f9-aa53-22b238ee6e95")
+	)
+	(wire
+		(pts
 			(xy 137.16 121.92) (xy 165.1 121.92)
 		)
 		(stroke
@@ -3260,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 66.04) (xy 26.67 66.04)
+			(xy 39.37 66.04) (xy 29.21 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3330,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 119.38) (xy 111.76 119.38)
+			(xy 88.9 119.38) (xy 91.44 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3367,6 +3535,16 @@
 			(type default)
 		)
 		(uuid "918594eb-4f48-4efa-9821-3e628cd16e1e")
+	)
+	(wire
+		(pts
+			(xy 91.44 121.92) (xy 111.76 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92900607-f259-48a3-b84c-d283f004b239")
 	)
 	(wire
 		(pts
@@ -3470,7 +3648,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 116.84) (xy 111.76 116.84)
+			(xy 88.9 116.84) (xy 91.44 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3547,6 +3725,16 @@
 			(type default)
 		)
 		(uuid "c262e0d2-1cd3-421c-b665-d527f3fbe29c")
+	)
+	(wire
+		(pts
+			(xy 91.44 119.38) (xy 111.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29d7eaa-c700-4f70-8a0e-83fcebf78b91")
 	)
 	(wire
 		(pts
@@ -3710,7 +3898,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 121.92) (xy 111.76 121.92)
+			(xy 88.9 121.92) (xy 91.44 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3737,6 +3925,16 @@
 			(type default)
 		)
 		(uuid "ea5c33a2-9a2f-48ad-9fba-cdccb467cf72")
+	)
+	(wire
+		(pts
+			(xy 91.44 116.84) (xy 111.76 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc858fb-184e-4eeb-94bc-2b1afbe4ddad")
 	)
 	(wire
 		(pts
@@ -3932,7 +4130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 40.3352 78.74 0)
 			(effects
 				(font
@@ -4002,7 +4200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 99.822 215.9 90)
 			(effects
 				(font
@@ -4171,6 +4369,73 @@
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 29.21 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "125dfc7b-bdec-47ba-8869-b328069e210b")
+		(property "Reference" "TP305"
+			(at 30.48 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 30.988 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 34.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48975145-bd46-49fe-bd0a-247fe7d0fef2")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "TP305")
 					(unit 1)
 				)
 			)
@@ -4534,7 +4799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 86.0552 219.71 0)
 			(effects
 				(font
@@ -4604,7 +4869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 87.122 139.7 90)
 			(effects
 				(font
@@ -4673,7 +4938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+		(property "Footprint" "EAST1410RGBW02:SMD_EAST1410RGBW02_EVE"
 			(at 187.96 68.58 0)
 			(effects
 				(font
@@ -4756,7 +5021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+		(property "Footprint" "EAST1410RGBW02:SMD_EAST1410RGBW02_EVE"
 			(at 289.56 68.58 0)
 			(effects
 				(font
@@ -4839,7 +5104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+		(property "Footprint" "EAST1410RGBW02:SMD_EAST1410RGBW02_EVE"
 			(at 365.76 68.58 0)
 			(effects
 				(font
@@ -5120,7 +5385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+		(property "Footprint" "EAST1410RGBW02:SMD_EAST1410RGBW02_EVE"
 			(at 213.36 68.58 0)
 			(effects
 				(font
@@ -5335,7 +5600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+		(property "Footprint" "EAST1410RGBW02:SMD_EAST1410RGBW02_EVE"
 			(at 238.76 68.58 0)
 			(effects
 				(font
@@ -5484,7 +5749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+		(property "Footprint" "EAST1410RGBW02:SMD_EAST1410RGBW02_EVE"
 			(at 340.36 68.58 0)
 			(effects
 				(font
@@ -5541,6 +5806,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 39.37 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77907b84-1dde-4c91-af9b-23a329347eab")
+		(property "Reference" "TP306"
+			(at 40.64 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 41.148 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 44.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69ddf99f-9b5d-4a63-9898-0e7572cb344f")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "TP306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EAST1410RGBW02:EAST1410RGBW02")
 		(at 314.96 68.58 270)
 		(unit 1)
@@ -5567,7 +5899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+		(property "Footprint" "EAST1410RGBW02:SMD_EAST1410RGBW02_EVE"
 			(at 314.96 68.58 0)
 			(effects
 				(font
@@ -5650,7 +5982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+		(property "Footprint" "EAST1410RGBW02:SMD_EAST1410RGBW02_EVE"
 			(at 264.16 68.58 0)
 			(effects
 				(font
@@ -5701,6 +6033,73 @@
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
 					(reference "U306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 26.67 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95bfc683-d326-44ac-a95e-500a3a03f81c")
+		(property "Reference" "TP304"
+			(at 27.94 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 28.448 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 26.67 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "947d77c5-28a0-464c-b787-28408ab76d95")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "TP304")
 					(unit 1)
 				)
 			)
@@ -5938,7 +6337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 27.6352 78.74 0)
 			(effects
 				(font
@@ -5975,6 +6374,141 @@
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
 					(reference "C301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 91.44 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3d601d4-7f2c-4eea-8663-c7a35c856953")
+		(property "Reference" "TP303"
+			(at 92.71 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 92.71 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42f2ed1c-f855-49ee-8fbf-44990c7281cb")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "TP303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 91.44 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab7d0176-5b94-41cb-93c6-8dafecf99371")
+		(property "Reference" "TP301"
+			(at 92.71 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 93.218 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 96.52 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a129774d-48bb-4503-a32a-5eca4739c118")
+		)
+		(instances
+			(project ""
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "TP301")
 					(unit 1)
 				)
 			)
@@ -6205,7 +6739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD_EAST1410RGBW02_EVE"
+		(property "Footprint" "EAST1410RGBW02:SMD_EAST1410RGBW02_EVE"
 			(at 162.56 68.58 0)
 			(effects
 				(font
@@ -6355,7 +6889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 99.822 139.7 90)
 			(effects
 				(font
@@ -6392,6 +6926,74 @@
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
 					(reference "R302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 91.44 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c5e847-8fc9-4a95-b768-ef487c519914")
+		(property "Reference" "TP302"
+			(at 92.71 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 92.71 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 96.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5c581c-0c54-4105-8d24-00edec36356c")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/c065c4ba-9a11-45b5-b5e4-a58cce279b64"
+					(reference "TP302")
 					(unit 1)
 				)
 			)

@@ -1683,6 +1683,10 @@
 		(uuid "7abd233b-9170-48bd-9759-3f6acd602703")
 	)
 	(no_connect
+		(at 114.3 82.55)
+		(uuid "7af7a820-ca47-420a-a8c4-e47c46c49162")
+	)
+	(no_connect
 		(at 101.6 95.25)
 		(uuid "83c6dcb4-0b69-476d-9844-f5c354d4191c")
 	)
@@ -1693,6 +1697,14 @@
 	(no_connect
 		(at 114.3 92.71)
 		(uuid "9ff30ee7-2ef5-4b32-a88d-5d74122f27c6")
+	)
+	(no_connect
+		(at 114.3 85.09)
+		(uuid "b5e38ad4-d942-4d05-bdc7-f1abd6f0b766")
+	)
+	(no_connect
+		(at 114.3 80.01)
+		(uuid "b7b94665-b633-479c-9263-9e37fc39bb1f")
 	)
 	(no_connect
 		(at 189.23 99.06)
@@ -1839,16 +1851,6 @@
 			(type default)
 		)
 		(uuid "2415bab3-1285-471e-9ecb-311af8e0cdb3")
-	)
-	(wire
-		(pts
-			(xy 139.7 80.01) (xy 114.3 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25284409-8e58-434e-9ed4-3c589a6a3819")
 	)
 	(wire
 		(pts
@@ -2019,16 +2021,6 @@
 			(type default)
 		)
 		(uuid "55ee1b81-8974-4fe8-b818-2e0c5a9014df")
-	)
-	(wire
-		(pts
-			(xy 139.7 85.09) (xy 114.3 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58ecec19-2f6c-456e-8b9a-5804bad41944")
 	)
 	(wire
 		(pts
@@ -2462,16 +2454,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 82.55) (xy 114.3 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceab7024-ee6c-4c78-abac-0b5a6aec027b")
-	)
-	(wire
-		(pts
 			(xy 170.18 109.22) (xy 170.18 106.68)
 		)
 		(stroke
@@ -2634,28 +2616,6 @@
 		)
 		(uuid "8fd41e48-2497-4d4a-9936-40c7257bca89")
 	)
-	(label "LP_SCL"
-		(at 120.65 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "03ae91bd-d626-4a23-b687-e6c142ee19c0")
-	)
-	(label "LP_SDA"
-		(at 120.65 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bd46bf2-fa99-4054-a62c-3f15029eb082")
-	)
 	(label "LP_SDA"
 		(at 196.85 86.36 0)
 		(fields_autoplaced yes)
@@ -2689,20 +2649,9 @@
 		)
 		(uuid "d2581c62-afa4-47a0-aa76-796c3653704b")
 	)
-	(label "LP_EN"
-		(at 120.65 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9583452-387f-4d2f-9ad7-a054d460e19b")
-	)
-	(hierarchical_label "LP_EN"
-		(shape output)
-		(at 139.7 80.01 0)
+	(hierarchical_label "LP_SDA"
+		(shape bidirectional)
+		(at 215.9 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2710,11 +2659,11 @@
 			)
 			(justify left)
 		)
-		(uuid "0981066f-7639-47d5-87c3-a1ae814e3ba5")
+		(uuid "1e872ebb-f3db-4dd7-bbd7-618d4203478f")
 	)
 	(hierarchical_label "LP_SCL"
 		(shape bidirectional)
-		(at 139.7 82.55 0)
+		(at 215.9 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2722,11 +2671,11 @@
 			)
 			(justify left)
 		)
-		(uuid "3ef7d25f-cdf3-46ab-b122-80b599ccc620")
+		(uuid "a15d51ca-2e8a-40f8-bb93-b3f4628c1cf9")
 	)
-	(hierarchical_label "LP_SDA"
-		(shape bidirectional)
-		(at 139.7 85.09 0)
+	(hierarchical_label "LP_EN"
+		(shape output)
+		(at 215.9 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2734,7 +2683,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c76b27f5-383d-4366-acf8-269e473b5731")
+		(uuid "a2fb44ff-fcc4-4bb7-b600-3a5ad5ab9204")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2896,7 +2845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_SlimStack_54722-0404_2x20_P0.50mm_Vertical"
 			(at 181.61 91.44 0)
 			(effects
 				(font
@@ -3949,7 +3898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_SlimStack_54722-0404_2x20_P0.50mm_Vertical"
 			(at 106.68 90.17 0)
 			(effects
 				(font

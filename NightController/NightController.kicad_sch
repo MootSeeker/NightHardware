@@ -414,16 +414,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 92.71) (xy 152.4 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbd7a78d-ee00-47c7-b239-4079443d23ba")
-	)
-	(wire
-		(pts
 			(xy 50.8 190.5) (xy 41.91 190.5)
 		)
 		(stroke
@@ -1194,17 +1184,7 @@
 				(justify left top)
 			)
 		)
-		(pin "LP_EN" output
-			(at 152.4 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1c7342e9-a07b-46ae-9f9c-2fb51158dc67")
-		)
-		(pin "LP_SCL" bidirectional
+		(pin "DOUT" input
 			(at 152.4 106.68 180)
 			(effects
 				(font
@@ -1212,9 +1192,9 @@
 				)
 				(justify left)
 			)
-			(uuid "ab9bdb70-d1d7-4de5-9466-cfb22126f940")
+			(uuid "98954585-d9d9-44f8-a840-fca1066936a3")
 		)
-		(pin "LP_SDA" bidirectional
+		(pin "DIN" output
 			(at 152.4 110.49 180)
 			(effects
 				(font
@@ -1222,7 +1202,7 @@
 				)
 				(justify left)
 			)
-			(uuid "9701241f-6325-4d9c-ba8e-604f65593472")
+			(uuid "6a494dca-6d92-415a-923f-b55a54a69d4e")
 		)
 		(instances
 			(project "NightController"
@@ -1262,27 +1242,7 @@
 				(justify left top)
 			)
 		)
-		(pin "LP_EN" input
-			(at 114.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0d1d84b7-2dbe-4903-82c6-92ba862b28a4")
-		)
-		(pin "LP_SCL" bidirectional
-			(at 114.3 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "149215a1-1f83-49e4-8f50-a205a5ebd6a7")
-		)
-		(pin "LP_SDA" bidirectional
+		(pin "DIN" input
 			(at 114.3 110.49 0)
 			(effects
 				(font
@@ -1290,7 +1250,17 @@
 				)
 				(justify right)
 			)
-			(uuid "e97135c9-10be-40c8-abda-cb531003fab4")
+			(uuid "9e76a6d4-ed14-48c9-b504-38700e4b485d")
+		)
+		(pin "DOUT" output
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2446cd74-5098-487a-a135-5200fa63ce92")
 		)
 		(instances
 			(project "NightController"

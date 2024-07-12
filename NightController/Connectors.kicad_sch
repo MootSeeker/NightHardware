@@ -1635,6 +1635,10 @@
 		(uuid "32a3231c-4915-45c7-9200-b723ec083f00")
 	)
 	(no_connect
+		(at 189.23 81.28)
+		(uuid "36bcea81-3dbf-40a7-b004-3e028ab349f0")
+	)
+	(no_connect
 		(at 189.23 88.9)
 		(uuid "372fa594-6ff3-489a-818c-c00f8026e108")
 	)
@@ -1663,6 +1667,10 @@
 		(uuid "5baa04f3-6aaf-44d2-aaa9-de9093eec490")
 	)
 	(no_connect
+		(at 189.23 86.36)
+		(uuid "63db2a07-ab4d-4a3b-b5fc-4aa8a4bbbd43")
+	)
+	(no_connect
 		(at 189.23 91.44)
 		(uuid "662d57ec-c1be-4314-9d37-c96a255f9dc8")
 	)
@@ -1677,6 +1685,10 @@
 	(no_connect
 		(at 101.6 97.79)
 		(uuid "6e31c1cc-43bd-44ba-819a-273e1104ace4")
+	)
+	(no_connect
+		(at 189.23 83.82)
+		(uuid "70d4237d-75fa-4ff4-b2d4-89ecc3175f9c")
 	)
 	(no_connect
 		(at 189.23 104.14)
@@ -1747,16 +1759,8 @@
 		(uuid "db8508a1-29d3-47c9-b8a0-34659d7fa9d4")
 	)
 	(no_connect
-		(at 176.53 101.6)
-		(uuid "f19f931c-a786-43ee-8b3e-1075287620af")
-	)
-	(no_connect
 		(at 176.53 99.06)
 		(uuid "f1de02e5-8b63-42da-806d-c79246a169a5")
-	)
-	(no_connect
-		(at 176.53 104.14)
-		(uuid "f42274a3-1c5e-4447-8010-92ea1638ee83")
 	)
 	(no_connect
 		(at 189.23 93.98)
@@ -1781,16 +1785,6 @@
 			(type default)
 		)
 		(uuid "00879c7a-5e8c-4d9a-9132-a297bd09eb27")
-	)
-	(wire
-		(pts
-			(xy 189.23 86.36) (xy 215.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "036fcee2-300d-4057-b0be-3e122d81ef56")
 	)
 	(wire
 		(pts
@@ -1961,6 +1955,16 @@
 			(type default)
 		)
 		(uuid "3f62d0c2-d5bc-4f09-a2bf-11211057cbc0")
+	)
+	(wire
+		(pts
+			(xy 176.53 101.6) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409fa27a-7da0-4b84-a803-0364edf471bf")
 	)
 	(wire
 		(pts
@@ -2314,26 +2318,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 81.28) (xy 215.9 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a971adc8-7209-408a-a902-d6822fa41034")
-	)
-	(wire
-		(pts
-			(xy 189.23 83.82) (xy 215.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acca12ea-5d6c-4cbe-aa22-8c8b640a084b")
-	)
-	(wire
-		(pts
 			(xy 120.65 113.03) (xy 120.65 115.57)
 		)
 		(stroke
@@ -2401,6 +2385,16 @@
 			(type default)
 		)
 		(uuid "b523eaa3-062c-4fe1-8c22-f14de6886c3d")
+	)
+	(wire
+		(pts
+			(xy 176.53 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4f57ff-e397-4541-a0a0-272d88a3e595")
 	)
 	(wire
 		(pts
@@ -2616,74 +2610,51 @@
 		)
 		(uuid "8fd41e48-2497-4d4a-9936-40c7257bca89")
 	)
-	(label "LP_SDA"
-		(at 196.85 86.36 0)
+	(label "DIN"
+		(at 168.91 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "6678a8d5-5007-4d10-a45a-913ba379d680")
+		(uuid "9a7fea8c-c41d-498c-9835-3f318704c695")
 	)
-	(label "LP_SCL"
-		(at 196.85 83.82 0)
+	(label "DOUT"
+		(at 168.91 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "7b10491f-923a-4e5e-ad30-76c0810d5a27")
+		(uuid "f9bee538-8bcc-4d55-b8c0-a51a1e080ba9")
 	)
-	(label "LP_EN"
-		(at 196.85 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2581c62-afa4-47a0-aa76-796c3653704b")
-	)
-	(hierarchical_label "LP_SDA"
-		(shape bidirectional)
-		(at 215.9 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1e872ebb-f3db-4dd7-bbd7-618d4203478f")
-	)
-	(hierarchical_label "LP_SCL"
-		(shape bidirectional)
-		(at 215.9 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a15d51ca-2e8a-40f8-bb93-b3f4628c1cf9")
-	)
-	(hierarchical_label "LP_EN"
+	(hierarchical_label "DIN"
 		(shape output)
-		(at 215.9 81.28 0)
+		(at 149.86 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "a2fb44ff-fcc4-4bb7-b600-3a5ad5ab9204")
+		(uuid "dd265a7a-e9c5-439f-b8ce-ae916a928ff2")
+	)
+	(hierarchical_label "DOUT"
+		(shape input)
+		(at 149.86 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee4be5bd-959e-430f-86eb-fed1d2f8e72d")
 	)
 	(symbol
 		(lib_id "power:+5V")

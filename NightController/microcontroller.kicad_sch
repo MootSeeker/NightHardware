@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f4e44c7b-634c-4399-b747-e67c5e9d7a3f")
+	(paper "A3")
+	(title_block
+		(title "NightLight Controller")
+		(date "2024-07-12")
+		(rev "a")
+		(comment 1 "MootSeeker (c) 2024")
+		(comment 2 "Controller Board")
+	)
+	(lib_symbols)
+)

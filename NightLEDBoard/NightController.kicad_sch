@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "84972824-c6a3-4762-8148-c4d5b5ede147")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "NightLight")
 		(date "2024-07-11")
@@ -334,6 +334,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 110.49) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eabf73b-41f2-4b67-8bb2-3b1b944336c2")
+	)
+	(wire
+		(pts
 			(xy 50.8 190.5) (xy 62.23 190.5)
 		)
 		(stroke
@@ -411,6 +421,16 @@
 			(type default)
 		)
 		(uuid "e7c2e8e7-8d07-4e81-a8d4-ce0192aeb450")
+	)
+	(wire
+		(pts
+			(xy 114.3 106.68) (xy 152.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb71753-c715-4b24-a7b6-dd128127e260")
 	)
 	(text "Mounting holes and fiducials for production"
 		(exclude_from_sim no)
@@ -1135,8 +1155,8 @@
 		)
 	)
 	(sheet
-		(at 76.2 87.63)
-		(size 29.21 36.83)
+		(at 152.4 88.9)
+		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1145,123 +1165,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "03989bfa-97ed-43f1-8177-44b2d5f15167")
-		(property "Sheetname" "Wifi & Bluetooth Interface"
-			(at 76.2 86.9184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Esp32.kicad_sch"
-			(at 76.2 125.0446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 76.2 50.8)
-		(size 30.48 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "306a694b-f2d3-486c-a640-87665f5ec8b4")
-		(property "Sheetname" "Daughter Board"
-			(at 76.2 50.0884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "daughter_board.kicad_sch"
-			(at 76.2 69.1646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 203.2 81.28)
-		(size 38.1 19.05)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9000aa10-758b-42c6-bae9-815520d6e883")
-		(property "Sheetname" "Power Supply"
-			(at 203.2 80.5684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Powersupply.kicad_sch"
-			(at 203.2 100.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 203.2 106.68)
-		(size 38.1 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a4481730-1ede-45e2-bdc5-33913a30df4a")
+		(uuid "4196b00a-c664-461a-8a86-042a5916f857")
 		(property "Sheetname" "Connectors"
-			(at 203.2 105.9684 0)
+			(at 152.4 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1176,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 203.2 125.0446 0)
+			(at 152.4 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,43 +1184,25 @@
 				(justify left top)
 			)
 		)
-		(instances
-			(project "NightController"
-				(path "/84972824-c6a3-4762-8148-c4d5b5ede147"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127 50.8)
-		(size 55.88 73.66)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a665f1ac-ecc5-45db-bb21-f3c38be82283")
-		(property "Sheetname" "Microcontroller"
-			(at 127 50.0884 0)
+		(pin "DOUT" input
+			(at 152.4 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
+			(uuid "98954585-d9d9-44f8-a840-fca1066936a3")
 		)
-		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 127 125.0446 0)
+		(pin "DIN" output
+			(at 152.4 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
+			(uuid "6a494dca-6d92-415a-923f-b55a54a69d4e")
 		)
 		(instances
 			(project "NightController"
@@ -1325,8 +1213,8 @@
 		)
 	)
 	(sheet
-		(at 203.2 50.8)
-		(size 38.1 24.13)
+		(at 76.2 88.9)
+		(size 38.1 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1335,9 +1223,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "a970e886-b15b-453f-93fc-cfeaa4c38b4b")
-		(property "Sheetname" "USB Connector"
-			(at 203.2 50.0884 0)
+		(uuid "c065c4ba-9a11-45b5-b5e4-a58cce279b64")
+		(property "Sheetname" "LED Controller"
+			(at 76.2 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,8 +1233,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb.kicad_sch"
-			(at 203.2 75.5146 0)
+		(property "Sheetfile" "led_controller.kicad_sch"
+			(at 76.2 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,10 +1242,30 @@
 				(justify left top)
 			)
 		)
+		(pin "DIN" input
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e76a6d4-ed14-48c9-b504-38700e4b485d")
+		)
+		(pin "DOUT" output
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2446cd74-5098-487a-a135-5200fa63ce92")
+		)
 		(instances
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147"
-					(page "5")
+					(page "3")
 				)
 			)
 		)

@@ -244,8 +244,9 @@
 		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
 		(tags "fiducial")
 		(property "Reference" "FID105"
-			(at 0 -1.5 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0972727b-bdcb-4ad3-94be-232e54bf763e")
 			(effects
 				(font
@@ -257,6 +258,7 @@
 		(property "Value" "Fiducial"
 			(at 0 1.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "047d2d9f-e5d9-4d29-a33c-6f5c417ecf87")
 			(effects
 				(font
@@ -357,9 +359,10 @@
 		(at 150 110 90)
 		(tags "EAST1410RGBW02 ")
 		(property "Reference" "U304"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4dec9ef4-94c2-46c8-85ee-eb9378b1e6db")
 			(effects
 				(font
@@ -372,6 +375,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "862b6e9e-d382-49a4-954b-544a956a7b52")
 			(effects
 				(font
@@ -538,6 +542,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c4c879e0-1ba8-4df8-90cb-2d407f9be475")
 			(effects
 				(font
@@ -607,9 +612,10 @@
 		(at 160 100 90)
 		(tags "EAST1410RGBW02 ")
 		(property "Reference" "U310"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ecb2ac1d-62df-41c6-bd99-d78ff723a502")
 			(effects
 				(font
@@ -622,6 +628,7 @@
 			(at 4.393901 15.000501 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "96980e59-e6fc-4e3b-ab50-af3a94f643d2")
 			(effects
 				(font
@@ -788,6 +795,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fc83c1a0-75a8-41b7-b382-8375382aef56")
 			(effects
 				(font
@@ -857,9 +865,10 @@
 		(at 160 90 90)
 		(tags "EAST1410RGBW02 ")
 		(property "Reference" "U309"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "68ae23ba-36d9-4b74-9bbf-e154aaa81d46")
 			(effects
 				(font
@@ -872,6 +881,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "245b7d14-8bca-4dd5-87dc-b2e0f72bc260")
 			(effects
 				(font
@@ -1038,6 +1048,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f9855681-7517-47ee-a705-824b56385630")
 			(effects
 				(font
@@ -1108,8 +1119,9 @@
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H104"
-			(at 0 -4.2 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dfaa10ce-4811-4b46-9413-de3f3dce05f5")
 			(effects
 				(font
@@ -1121,6 +1133,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f7b837b9-4183-4bb3-91f7-4553b831cc5b")
 			(effects
 				(font
@@ -1321,8 +1334,9 @@
 		(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP306"
-			(at 0.7 2.5 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f353cb47-687c-4a26-89af-02f5ea28d16f")
 			(effects
 				(font
@@ -1334,6 +1348,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 -2.8 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "95fef191-76b0-4862-ac81-06b17bc862cf")
 			(effects
 				(font
@@ -1462,6 +1477,7 @@
 		(fp_text user "${REFERENCE}"
 			(at 0.7 2.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "27bcb1fb-2c06-40b9-9eed-c08202e67259")
 			(effects
 				(font
@@ -1499,9 +1515,10 @@
 		(at 160 110 90)
 		(tags "EAST1410RGBW02 ")
 		(property "Reference" "U303"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "500f6278-627d-47c6-92f9-8d3c78518a6c")
 			(effects
 				(font
@@ -1514,6 +1531,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0c25339a-6820-4b53-9ed8-f5a9bdc74f93")
 			(effects
 				(font
@@ -1680,6 +1698,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "48c3cd0b-006f-4f69-8fff-4a6a40bd958c")
 			(effects
 				(font
@@ -1750,8 +1769,9 @@
 		(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP304"
-			(at 0.7 2.5 0)
+			(at 0 2.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "51daf86d-3e12-4047-a2b4-f0cc8efd3712")
 			(effects
 				(font
@@ -1763,6 +1783,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 -2.8 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fa5dbe2b-7e32-446a-bc7c-be93a0e4243c")
 			(effects
 				(font
@@ -1891,6 +1912,7 @@
 		(fp_text user "${REFERENCE}"
 			(at 0.7 2.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "062a7a29-6055-4255-980e-0adefa9b905b")
 			(effects
 				(font
@@ -1928,9 +1950,10 @@
 		(at 140 110 90)
 		(tags "EAST1410RGBW02 ")
 		(property "Reference" "U305"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "746c0b5c-dda8-445f-a20d-dc8453ec92b7")
 			(effects
 				(font
@@ -1943,6 +1966,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "02ccf7e4-225c-4f90-b8b2-4e5540871bfa")
 			(effects
 				(font
@@ -2109,6 +2133,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0b4ea9c3-4475-4ccb-b656-fd47880f7983")
 			(effects
 				(font
@@ -2181,6 +2206,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f3b7b560-b752-4b4d-934a-ee621fe9e07f")
 			(effects
 				(font
@@ -2193,6 +2219,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0b0199a8-c800-49c4-901f-e26732d9adad")
 			(effects
 				(font
@@ -2359,6 +2386,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "631a356d-e789-4343-96b2-42d741c27d93")
 			(effects
 				(font
@@ -2429,8 +2457,9 @@
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H102"
-			(at 0 -4.2 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6dccb008-18a5-4011-bc58-7622816fe25a")
 			(effects
 				(font
@@ -2442,6 +2471,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6877760f-cd42-43a1-8a39-280cf2a701c2")
 			(effects
 				(font
@@ -2642,8 +2672,9 @@
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H101"
-			(at 0 -4.2 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ee45543c-d50b-423f-bd33-b8d7907f59ec")
 			(effects
 				(font
@@ -2655,6 +2686,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8418c3e5-247f-43f7-8daf-5ec1d9aaccb0")
 			(effects
 				(font
@@ -2855,8 +2887,9 @@
 		(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP302"
-			(at 0.7 2.5 0)
+			(at 0 2.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3d14cbe1-9e58-40c9-acfc-4ee7af9533fa")
 			(effects
 				(font
@@ -2868,6 +2901,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 -2.8 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "dd7204d5-f89e-471b-82c4-38ad20b024fc")
 			(effects
 				(font
@@ -2996,6 +3030,7 @@
 		(fp_text user "${REFERENCE}"
 			(at 0.7 2.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7930ba65-7e5b-4b63-b1ce-7e5decdab0f2")
 			(effects
 				(font
@@ -3034,8 +3069,9 @@
 		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
 		(tags "fiducial")
 		(property "Reference" "FID103"
-			(at 0 -1.5 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6c8dc1b5-2d45-48d9-b590-5368f9f315fe")
 			(effects
 				(font
@@ -3047,6 +3083,7 @@
 		(property "Value" "Fiducial"
 			(at 0 1.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "24c01b3a-da93-4cc0-a999-2f13a03f50ec")
 			(effects
 				(font
@@ -3148,8 +3185,9 @@
 		(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP301"
-			(at 0.7 2.5 0)
+			(at 0 2.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0792589e-def5-467d-8049-d351076500b6")
 			(effects
 				(font
@@ -3161,6 +3199,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 -2.8 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1635cc3c-e16f-46ad-839b-f004679167dc")
 			(effects
 				(font
@@ -3289,6 +3328,7 @@
 		(fp_text user "${REFERENCE}"
 			(at 0.7 2.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3a41cfcb-a62f-4cc8-9544-d7f90bb2ec4d")
 			(effects
 				(font
@@ -3326,9 +3366,10 @@
 		(at 140 100 90)
 		(tags "EAST1410RGBW02 ")
 		(property "Reference" "U306"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a582595b-4a5e-40fb-8555-5476907491a9")
 			(effects
 				(font
@@ -3341,6 +3382,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9fa80b95-7fd8-49b3-a15b-71fba4ec7099")
 			(effects
 				(font
@@ -3507,6 +3549,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9e030106-658e-4af1-95ab-14f2a3d5b81e")
 			(effects
 				(font
@@ -3577,8 +3620,9 @@
 		(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP305"
-			(at 0.7 2.5 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9f613f25-33dc-4672-96de-c1cb72f1b9aa")
 			(effects
 				(font
@@ -3590,6 +3634,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 -2.8 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6ef11c9e-7643-408f-9981-6c987e3c6dde")
 			(effects
 				(font
@@ -3718,6 +3763,7 @@
 		(fp_text user "${REFERENCE}"
 			(at 0.7 2.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a585a45c-fc37-4690-b8cc-db74f087e8f4")
 			(effects
 				(font
@@ -3756,8 +3802,9 @@
 		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
 		(tags "fiducial")
 		(property "Reference" "FID101"
-			(at 0 -1.5 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4a80f166-3bc0-4f96-908e-027870bc2b27")
 			(effects
 				(font
@@ -3769,6 +3816,7 @@
 		(property "Value" "Fiducial"
 			(at 0 1.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "13001e75-3f4b-4e2b-91be-dfce26cd3d86")
 			(effects
 				(font
@@ -3869,9 +3917,10 @@
 		(at 140 90 90)
 		(tags "EAST1410RGBW02 ")
 		(property "Reference" "U307"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "debf497b-42d9-479f-998d-bd2498a550cd")
 			(effects
 				(font
@@ -3884,6 +3933,7 @@
 			(at 0.5 3.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5ea8d155-c56e-4e26-b71c-f44063ce71a1")
 			(effects
 				(font
@@ -4120,8 +4170,9 @@
 		(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
 		(tags "test point wire loop bead")
 		(property "Reference" "TP303"
-			(at 0.7 2.5 0)
+			(at 0 2.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b0f169d8-cc56-401c-bf21-a4fd883b565d")
 			(effects
 				(font
@@ -4133,6 +4184,7 @@
 		(property "Value" "TestPoint_Small"
 			(at 0 -2.8 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "43b292bc-2636-41b8-88cf-7b154d0af8ff")
 			(effects
 				(font
@@ -4261,6 +4313,7 @@
 		(fp_text user "${REFERENCE}"
 			(at 0.7 2.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6103d234-7ba4-470b-88ca-f2e7ff407fe8")
 			(effects
 				(font
@@ -4299,8 +4352,9 @@
 		(descr "Mounting Hole 3.2mm, M3")
 		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "H103"
-			(at 0 -4.2 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ae61de5d-b8bb-4c25-8b21-a6a9d0c8d667")
 			(effects
 				(font
@@ -4312,6 +4366,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ec07f817-2a7a-4d09-9d2a-299ef76950fa")
 			(effects
 				(font
@@ -4511,9 +4566,10 @@
 		(at 150 90 90)
 		(tags "EAST1410RGBW02 ")
 		(property "Reference" "U308"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "de4e7f02-355c-40b0-8fa3-599764b8671e")
 			(effects
 				(font
@@ -4526,6 +4582,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "95acb282-7d74-4507-ba79-181e9f3c36b4")
 			(effects
 				(font
@@ -4692,6 +4749,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "43f27688-9cba-4bb6-be9f-e4394ab79b55")
 			(effects
 				(font
@@ -4764,6 +4822,7 @@
 		(property "Reference" "FID104"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "141eba81-8918-4f20-be5a-4fdc1c7ec7bd")
 			(effects
 				(font
@@ -4776,6 +4835,7 @@
 		(property "Value" "Fiducial"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "4a9f9790-7675-4d8f-8584-3be242619203")
 			(effects
 				(font
@@ -4882,7 +4942,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C302"
-			(at 0 1.16 90)
+			(at 0.0825 4.05 90)
 			(layer "B.SilkS")
 			(uuid "e815333f-0e87-4ce4-b8b9-5bc07439e865")
 			(effects
@@ -5101,7 +5161,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C303"
-			(at 0 1.16 90)
+			(at 3.0325 0.1 90)
 			(layer "B.SilkS")
 			(uuid "d7032531-e693-4d26-8952-e820533c10a7")
 			(effects
@@ -5320,7 +5380,7 @@
 		(descr "Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 54722-0404, 40 Pins (http://www.molex.com/pdm_docs/sd/547220804_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex SlimStack side entry")
 		(property "Reference" "J202"
-			(at 0 4.500001 90)
+			(at -5 0 0)
 			(layer "B.SilkS")
 			(uuid "1d5e9a00-92cd-40e9-8283-cbbf4776d57d")
 			(effects
@@ -5941,7 +6001,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C301"
-			(at 0 1.16 90)
+			(at 0 4.35 90)
 			(layer "B.SilkS")
 			(uuid "cae1affe-e1ce-4b23-87fd-c619ea986c95")
 			(effects
@@ -6162,6 +6222,7 @@
 		(property "Reference" "FID106"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "400d70e2-5bbc-43f8-903f-59161bf81746")
 			(effects
 				(font
@@ -6174,6 +6235,7 @@
 		(property "Value" "Fiducial"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "baf625ea-ddd0-48a7-8f14-19da9834fbaa")
 			(effects
 				(font
@@ -6280,7 +6342,7 @@
 		(descr "Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 54722-0404, 40 Pins (http://www.molex.com/pdm_docs/sd/547220804_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex SlimStack side entry")
 		(property "Reference" "J201"
-			(at 0 4.500001 90)
+			(at -5.6 0 180)
 			(layer "B.SilkS")
 			(uuid "2c167031-9451-4b06-8a17-9be462e915d7")
 			(effects
@@ -6903,6 +6965,7 @@
 		(property "Reference" "FID102"
 			(at 0 1.5 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "db9fa0a2-088d-4c34-9405-365f66c19b92")
 			(effects
 				(font
@@ -6915,6 +6978,7 @@
 		(property "Value" "Fiducial"
 			(at 0 -1.5 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "c12a650c-e91c-4a5f-8824-cb8781476ca3")
 			(effects
 				(font
@@ -7021,7 +7085,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R303"
-			(at 0 1.17 90)
+			(at 3.1025 -0.2 90)
 			(layer "B.SilkS")
 			(uuid "0822a23e-406f-4608-87a5-4867819e2f1a")
 			(effects
@@ -7240,7 +7304,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R302"
-			(at 0 1.17 90)
+			(at 2.9025 0.1 90)
 			(layer "B.SilkS")
 			(uuid "d6269376-974c-492e-9fc5-ec87561ea69e")
 			(effects
@@ -7459,7 +7523,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R301"
-			(at 0 1.17 90)
+			(at 2.9025 -0.25 90)
 			(layer "B.SilkS")
 			(uuid "07a4a8ba-899d-46fb-9f39-c3ad954f546d")
 			(effects
@@ -7678,7 +7742,7 @@
 		(descr "VQFN, 46 Pin (http://www.ti.com/lit/ds/symlink/lp5036.pdf#page=59), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "VQFN NoLead")
 		(property "Reference" "U301"
-			(at 0 4.33 90)
+			(at -3.8 0 180)
 			(layer "B.SilkS")
 			(uuid "01781827-9098-4b7c-aa4d-f6ee849e7ac1")
 			(effects
@@ -8640,6 +8704,128 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e6e0dfcb-507c-46d3-a98e-357ba6f44775")
+	)
+	(gr_text "CONN1"
+		(at 142.61 92.9 0)
+		(layer "B.SilkS")
+		(uuid "07aecbf3-2dbf-429d-8534-8e9e0db157dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "CONN2"
+		(at 162.61 92.9 0)
+		(layer "B.SilkS")
+		(uuid "d406387e-2bff-4a40-b0c3-8f06106b6bae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 140 93.59 90)
+		(layer "B.SilkS")
+		(uuid "e9f34558-626b-4896-b688-4399a136f1ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 167.5 110 0)
+		(layer "F.SilkS")
+		(uuid "094cfa43-5396-48bd-83de-2d8eb97f8211")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "SCL"
+		(at 167.5 100 0)
+		(layer "F.SilkS")
+		(uuid "17c0353f-68b0-4536-b8eb-159942c9f629")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "+5V"
+		(at 157.5 117.5 0)
+		(layer "F.SilkS")
+		(uuid "6385997d-5351-4bd5-b25a-4b330830417c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "NightLight\nLED Board"
+		(at 150 85 0)
+		(layer "F.SilkS")
+		(uuid "8abb049a-98b0-46b5-9de5-9c9331f35ff0")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.35)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "EN"
+		(at 167.5 105 0)
+		(layer "F.SilkS")
+		(uuid "a4542349-4f38-4fe7-9fcb-d775f1f63493")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 152.5 117.5 0)
+		(layer "F.SilkS")
+		(uuid "e86b5382-6343-4620-87c7-ac65efc682fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "SDA"
+		(at 167.5 95 0)
+		(layer "F.SilkS")
+		(uuid "f71f66ca-6e36-4ae4-a796-d5409ff7fc8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
 	)
 	(dimension
 		(type aligned)

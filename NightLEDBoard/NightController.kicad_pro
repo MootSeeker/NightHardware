@@ -592,28 +592,12 @@
       "Stammblatt"
     ],
     [
-      "a665f1ac-ecc5-45db-bb21-f3c38be82283",
-      "Microcontroller"
-    ],
-    [
-      "306a694b-f2d3-486c-a640-87665f5ec8b4",
-      "Daughter Board"
-    ],
-    [
-      "03989bfa-97ed-43f1-8177-44b2d5f15167",
-      "Wifi & Bluetooth Interface"
-    ],
-    [
-      "a970e886-b15b-453f-93fc-cfeaa4c38b4b",
-      "USB Connector"
-    ],
-    [
-      "9000aa10-758b-42c6-bae9-815520d6e883",
-      "Power Supply"
-    ],
-    [
-      "a4481730-1ede-45e2-bdc5-33913a30df4a",
+      "4196b00a-c664-461a-8a86-042a5916f857",
       "Connectors"
+    ],
+    [
+      "c065c4ba-9a11-45b5-b5e4-a58cce279b64",
+      "LED Controller"
     ]
   ],
   "text_variables": {}

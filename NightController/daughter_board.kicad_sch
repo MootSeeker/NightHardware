@@ -3312,7 +3312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+VSYS"
 			(at 72.39 71.1201 90)
 			(effects
 				(font
@@ -3513,7 +3513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+VSYS"
 			(at 194.31 104.1399 90)
 			(effects
 				(font
@@ -3829,7 +3829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+VSYS"
 			(at 148.59 71.1201 90)
 			(effects
 				(font
@@ -4030,7 +4030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+VSYS"
 			(at 118.11 104.1399 90)
 			(effects
 				(font

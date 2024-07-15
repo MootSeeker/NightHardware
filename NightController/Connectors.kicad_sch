@@ -2140,6 +2140,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:2N7002"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Switching MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2520,6 +2815,18 @@
 		(uuid "6981acd6-234a-4a9f-ab6a-f2b1b915dac7")
 	)
 	(junction
+		(at 266.7 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a9291de-fd7c-4a31-b8ce-7ca13f89b8ab")
+	)
+	(junction
+		(at 285.75 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af571766-01ee-44f9-8d7e-c11b56c838c5")
+	)
+	(junction
 		(at 215.9 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2558,6 +2865,36 @@
 			(type default)
 		)
 		(uuid "0311bf5b-b092-4946-a893-5942fd20098d")
+	)
+	(wire
+		(pts
+			(xy 266.7 50.8) (xy 266.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057f9803-d1aa-414b-aa2c-95ce8dc9cc85")
+	)
+	(wire
+		(pts
+			(xy 269.24 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cc473c-a528-4e59-97dc-61cdc6da6913")
+	)
+	(wire
+		(pts
+			(xy 276.86 50.8) (xy 285.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6e6ff4-da52-4157-9610-9b5d6adc5d9f")
 	)
 	(wire
 		(pts
@@ -2691,6 +3028,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 63.5) (xy 266.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbed60c-4784-471c-9ba8-d7b721866588")
+	)
+	(wire
+		(pts
 			(xy 27.94 110.49) (xy 27.94 114.3)
 		)
 		(stroke
@@ -2821,6 +3168,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 50.8) (xy 285.75 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645b98ba-e11a-48e6-89de-5506c692932a")
+	)
+	(wire
+		(pts
 			(xy 55.88 58.42) (xy 83.82 58.42)
 		)
 		(stroke
@@ -2931,6 +3288,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 41.91) (xy 285.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93972d37-4d03-4ce8-bcea-8226afaecd4c")
+	)
+	(wire
+		(pts
 			(xy 215.9 31.75) (xy 215.9 38.1)
 		)
 		(stroke
@@ -2938,6 +3305,16 @@
 			(type default)
 		)
 		(uuid "99898031-b3a1-4c9f-8054-09543124efee")
+	)
+	(wire
+		(pts
+			(xy 285.75 31.75) (xy 285.75 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7d3c5d-7a6d-413e-b7b1-b2cfc574bb14")
 	)
 	(wire
 		(pts
@@ -3031,6 +3408,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 63.5) (xy 304.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cccbc759-1674-42df-a1b6-1c7445398bee")
+	)
+	(wire
+		(pts
 			(xy 63.5 88.9) (xy 63.5 73.66)
 		)
 		(stroke
@@ -3038,6 +3425,16 @@
 			(type default)
 		)
 		(uuid "d008f206-6392-4127-bd98-66a14a16061a")
+	)
+	(wire
+		(pts
+			(xy 266.7 63.5) (xy 266.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda16fe4-aff5-4c75-8716-1e0ad03438f6")
 	)
 	(wire
 		(pts
@@ -3058,6 +3455,17 @@
 			(type default)
 		)
 		(uuid "fa52f42c-179e-4c03-8bb0-bf62be9eaeb0")
+	)
+	(text "VBUS Sensing\n"
+		(exclude_from_sim no)
+		(at 246.126 26.162 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "3000e332-d3d8-409e-90e5-2b83a462d087")
 	)
 	(text "Connectors"
 		(exclude_from_sim no)
@@ -3195,6 +3603,18 @@
 			(justify left)
 		)
 		(uuid "41803649-1b57-4ee7-8b73-eb8e9fb20e74")
+	)
+	(hierarchical_label "USB_VBUS_SENS"
+		(shape output)
+		(at 304.8 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "729ccf01-a518-4b10-9dc7-c334dfa299d3")
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -3461,6 +3881,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 285.75 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24a7b917-f816-4773-a849-ecc2116ea0ab")
+		(property "Reference" "#PWR0628"
+			(at 285.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 285.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 285.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cda3dee1-7859-475d-b2b2-c1e13ce8aa03")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a4481730-1ede-45e2-bdc5-33913a30df4a"
+					(reference "#PWR0628")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 63.5 69.85 0)
 		(unit 1)
@@ -3657,6 +4143,72 @@
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a4481730-1ede-45e2-bdc5-33913a30df4a"
 					(reference "#PWR0708")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40120169-bcae-4068-b539-7962aaf16a86")
+		(property "Reference" "#PWR0627"
+			(at 266.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaf105b1-2d82-4f93-bf0e-429430d140ab")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a4481730-1ede-45e2-bdc5-33913a30df4a"
+					(reference "#PWR0627")
 					(unit 1)
 				)
 			)
@@ -3881,6 +4433,76 @@
 			(project ""
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a4481730-1ede-45e2-bdc5-33913a30df4a"
 					(reference "J701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 285.75 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50146eea-56e2-4f4e-88c8-bdd21df3e833")
+		(property "Reference" "R615"
+			(at 288.29 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k 5%"
+			(at 288.29 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.972 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 285.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6599fddf-efdb-4518-8582-776dcd3b3d7d")
+		)
+		(pin "1"
+			(uuid "7ce965cd-ad7e-4a68-86bf-bfba410a7893")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a4481730-1ede-45e2-bdc5-33913a30df4a"
+					(reference "R615")
 					(unit 1)
 				)
 			)
@@ -4239,6 +4861,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 285.75 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70b060ee-601e-4bfb-9714-dda7697c5d0e")
+		(property "Reference" "Q601"
+			(at 285.75 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 285.75 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 283.845 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 281.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4aa92b5-be0b-4443-868b-d217f7c6c006")
+		)
+		(pin "2"
+			(uuid "90f99fab-1265-4f21-866e-26bd6eb0f208")
+		)
+		(pin "3"
+			(uuid "8eac0c60-801a-4733-88ee-2ee4ce80986f")
+		)
+		(instances
+			(project ""
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a4481730-1ede-45e2-bdc5-33913a30df4a"
+					(reference "Q601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 177.8 82.55 0)
 		(unit 1)
@@ -4503,6 +5199,74 @@
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a4481730-1ede-45e2-bdc5-33913a30df4a"
 					(reference "C702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 273.05 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a73e9f9a-86b1-40e5-87c8-2ca84df5fd55")
+		(property "Reference" "R616"
+			(at 273.05 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M 5%"
+			(at 273.05 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b4a7402-b2e2-46f6-a30c-fc906695ed0b")
+		)
+		(pin "1"
+			(uuid "86e0233f-4039-40e5-b0c2-59f3c9dc0b90")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a4481730-1ede-45e2-bdc5-33913a30df4a"
+					(reference "R616")
 					(unit 1)
 				)
 			)

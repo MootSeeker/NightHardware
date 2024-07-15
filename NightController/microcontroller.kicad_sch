@@ -3188,6 +3188,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 245.11) (xy 177.8 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047806cb-17eb-4966-aceb-97eeca5d6740")
+	)
+	(wire
+		(pts
 			(xy 50.8 60.96) (xy 50.8 68.58)
 		)
 		(stroke
@@ -3245,6 +3255,16 @@
 			(type default)
 		)
 		(uuid "0d1f4170-78c7-464c-99aa-a1575fee858b")
+	)
+	(wire
+		(pts
+			(xy 215.9 234.95) (xy 215.9 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a47c90-94b2-4776-bd6c-fef112baedef")
 	)
 	(wire
 		(pts
@@ -3408,6 +3428,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 254) (xy 205.74 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346bd14c-03d1-4b83-b692-49ca961abff3")
+	)
+	(wire
+		(pts
+			(xy 165.1 234.95) (xy 165.1 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347890a1-ab12-4b52-b2be-e455e0c533cb")
+	)
+	(wire
+		(pts
 			(xy 101.6 53.34) (xy 101.6 46.99)
 		)
 		(stroke
@@ -3448,6 +3488,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 149.86) (xy 226.06 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1dd06b-550f-4ff9-91d4-bd2edfdfd583")
+	)
+	(wire
+		(pts
 			(xy 38.1 162.56) (xy 38.1 165.1)
 		)
 		(stroke
@@ -3455,6 +3505,16 @@
 			(type default)
 		)
 		(uuid "3f9a626c-45c7-4174-a52f-0134662610e7")
+	)
+	(wire
+		(pts
+			(xy 203.2 147.32) (xy 226.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443fe730-f685-4ab5-aade-6e0c98601219")
 	)
 	(wire
 		(pts
@@ -3475,6 +3535,16 @@
 			(type default)
 		)
 		(uuid "47e71028-4515-460a-8560-b4e316968f75")
+	)
+	(wire
+		(pts
+			(xy 254 273.05) (xy 254 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492358ad-c303-483a-89fa-75b2ddb972ab")
 	)
 	(wire
 		(pts
@@ -3698,6 +3768,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 234.95) (xy 254 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800d25d9-569d-4ddf-ac5a-2b8f8a48c517")
+	)
+	(wire
+		(pts
 			(xy 38.1 153.67) (xy 38.1 154.94)
 		)
 		(stroke
@@ -3768,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 251.46) (xy 205.74 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d52b53-6229-48e7-9ce9-415cedd206c5")
+	)
+	(wire
+		(pts
 			(xy 50.8 151.13) (xy 50.8 154.94)
 		)
 		(stroke
@@ -3788,6 +3878,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 273.05) (xy 215.9 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae6d07d-46c4-470a-94f1-9d949cb8c919")
+	)
+	(wire
+		(pts
 			(xy 60.96 256.54) (xy 83.82 256.54)
 		)
 		(stroke
@@ -3805,6 +3905,16 @@
 			(type default)
 		)
 		(uuid "a1153e08-6111-495b-adc4-2773ae8254e2")
+	)
+	(wire
+		(pts
+			(xy 177.8 234.95) (xy 177.8 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2076626-f710-43e6-b3e7-d2e4fd39e74d")
 	)
 	(wire
 		(pts
@@ -3835,6 +3945,16 @@
 			(type default)
 		)
 		(uuid "a96cbcb9-ef4e-414a-ad2b-c4d33521c6c3")
+	)
+	(wire
+		(pts
+			(xy 165.1 245.11) (xy 165.1 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9afa90a-e6e6-46ad-8693-829445f79a38")
 	)
 	(wire
 		(pts
@@ -3945,6 +4065,16 @@
 			(type default)
 		)
 		(uuid "bd44ae62-8ee9-49bc-948b-6101dc6f8ff9")
+	)
+	(wire
+		(pts
+			(xy 226.06 254) (xy 241.3 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf253797-3211-4e6a-8330-cd482ebfcff1")
 	)
 	(wire
 		(pts
@@ -4175,6 +4305,16 @@
 			(type default)
 		)
 		(uuid "ed0a2944-5ad4-4215-9ac6-bc5859825327")
+	)
+	(wire
+		(pts
+			(xy 203.2 152.4) (xy 226.06 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee811e81-5acc-4165-ac47-a56ee9662f53")
 	)
 	(wire
 		(pts
@@ -7032,6 +7172,17 @@
 		)
 		(uuid "03a9c7fb-684b-4c30-beb5-579d70dce76e")
 	)
+	(label "TEMP_SCL"
+		(at 203.2 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "049cb61e-2c43-4c5a-a007-73ad06165c27")
+	)
 	(label "FLASH_IO0"
 		(at 203.2 132.08 0)
 		(fields_autoplaced yes)
@@ -7098,6 +7249,17 @@
 		)
 		(uuid "3dcee820-33f7-471c-98af-3a966cb2ecb7")
 	)
+	(label "TEMP_SDA"
+		(at 190.5 251.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4122700b-1e8b-4b76-aa76-6c3ca8e53777")
+	)
 	(label "~{NRST}"
 		(at 83.82 231.14 180)
 		(fields_autoplaced yes)
@@ -7152,6 +7314,17 @@
 			(justify left bottom)
 		)
 		(uuid "6241198d-f582-483c-8cad-21f8cbdbd4a7")
+	)
+	(label "~{TEMP_ALT}"
+		(at 203.2 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69f9db09-daec-4977-ae8c-83367896abcb")
 	)
 	(label "LED_B"
 		(at 66.04 165.1 0)
@@ -7274,6 +7447,17 @@
 		)
 		(uuid "ae3a6c3a-f44a-42d6-b4cc-201138bfd60a")
 	)
+	(label "~{TEMP_ALT}"
+		(at 241.3 254 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b53f41bb-adda-4f61-aea8-929a372e9399")
+	)
 	(label "SWCLK"
 		(at 279.4 139.7 180)
 		(fields_autoplaced yes)
@@ -7318,6 +7502,17 @@
 		)
 		(uuid "cd2a2b9f-4476-4034-98e7-a7ed8cf3d9b6")
 	)
+	(label "TEMP_SDA"
+		(at 203.2 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8f173b7-1e3e-4bb6-aea4-9d09c315660f")
+	)
 	(label "FLASH_IO3"
 		(at 279.4 119.38 180)
 		(fields_autoplaced yes)
@@ -7339,6 +7534,17 @@
 			(justify right bottom)
 		)
 		(uuid "f6fa76b3-40e4-410a-9d0d-3ffd2902d13e")
+	)
+	(label "TEMP_SCL"
+		(at 190.5 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa345af1-dcdf-4d75-a3ea-9c351cc65359")
 	)
 	(hierarchical_label "DOUT"
 		(shape input)
@@ -7435,6 +7641,72 @@
 			(justify left)
 		)
 		(uuid "fb961ba4-ad1c-458b-981a-389332613646")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09bdf00c-379d-446c-9e5f-0ec88a6a3a09")
+		(property "Reference" "#PWR0201"
+			(at 215.9 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d4719eb-1944-44a1-8b25-80c335aa1f5d")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -7702,6 +7974,72 @@
 			(project ""
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 215.9 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c23e770-0e4c-4dfc-b2b0-c2c4d13c002d")
+		(property "Reference" "#PWR0202"
+			(at 215.9 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 215.9 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 215.9 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c090c90b-0772-4ca1-9248-61a2fbdea8d4")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -8204,6 +8542,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 254 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c5f6e9e-3903-493c-b61b-1551590af6e8")
+		(property "Reference" "#PWR0204"
+			(at 254 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 254 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 254 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "437be86f-ef20-4e83-979f-c5840c1d4532")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 381 215.9 0)
 		(unit 1)
@@ -8456,6 +8860,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 254 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98f2e1b3-0632-47d0-94bb-5fcc415dc105")
+		(property "Reference" "#PWR0203"
+			(at 254 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19d33be1-5c0c-474e-bf4c-76fa38887bd9")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 50.8 57.15 0)
 		(unit 1)
@@ -8651,6 +9121,207 @@
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
 					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 165.1 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa0a5882-c875-40e7-82b9-a746e5136db2")
+		(property "Reference" "#PWR0205"
+			(at 165.1 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 165.1 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 165.1 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46b96b4d-bf67-42a2-9076-573ade1c7366")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adab29ae-e0fe-42f8-85fe-3f24eeca9367")
+		(property "Reference" "C201"
+			(at 250.19 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V"
+			(at 258.572 259.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254.9652 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 254 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccf3833b-fe42-4fe7-a597-8c89ed54acc1")
+		)
+		(pin "2"
+			(uuid "9dd7783d-c0d5-4a00-a127-b043b51610e8")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 177.8 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcee37c3-634f-4e95-b7a2-eeb57ffda20a")
+		(property "Reference" "#PWR0206"
+			(at 177.8 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 177.8 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 177.8 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b881518e-4daa-4f6a-b59e-1f79bc037e04")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -9014,6 +9685,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 177.8 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3611655-69fd-41b7-913c-a1b657fd1f62")
+		(property "Reference" "R205"
+			(at 180.34 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k 5%"
+			(at 180.34 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.022 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff4c4283-bef7-4a61-9cc2-2605ffdf2a11")
+		)
+		(pin "1"
+			(uuid "0bf268b0-88a3-4a29-8eb9-8f569774386a")
+		)
+		(instances
+			(project ""
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
+					(reference "R205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 101.6 57.15 0)
 		(unit 1)
@@ -9212,6 +9953,76 @@
 			(project "NightController"
 				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efed880d-3777-4b86-9e9b-1b8e8efa7a60")
+		(property "Reference" "R206"
+			(at 167.64 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k 5%"
+			(at 167.64 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.322 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77ef9f2a-f890-4152-9afc-20791d9347f9")
+		)
+		(pin "1"
+			(uuid "8f149402-efce-4e44-bff6-420520ffbafb")
+		)
+		(instances
+			(project "NightController"
+				(path "/84972824-c6a3-4762-8148-c4d5b5ede147/a665f1ac-ecc5-45db-bb21-f3c38be82283"
+					(reference "R206")
 					(unit 1)
 				)
 			)

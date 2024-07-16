@@ -2668,7 +2668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_SlimStack_54722-0404_2x20_P0.50mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_SlimStack_55560-0401_2x20_P0.50mm_Vertical"
 			(at 93.98 86.36 0)
 			(effects
 				(font
@@ -3654,7 +3654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_SlimStack_54722-0404_2x20_P0.50mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_SlimStack_55560-0401_2x20_P0.50mm_Vertical"
 			(at 170.18 86.36 0)
 			(effects
 				(font
